@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NSE.WebApp.MVC.Models
+namespace NSE.Identidade.API.Models
 {
     public class UserViewModels
     {

@@ -4,11 +4,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using static NSE.WebApp.MVC.Models.UserViewModels;
+using static NSE.Identidade.API.Models.UserViewModels;
 
-namespace NSE.WebApp.MVC.Controllers
+namespace NSE.Identidade.API.Controllers
 {
-    [Route ("api/identidade")]
+    [ApiController]
+    [Route("api/identidade")]
     public class AuthController : Controller
     {
         private readonly SignInManager<IdentityUser> _signInManager;
@@ -28,7 +29,7 @@ namespace NSE.WebApp.MVC.Controllers
             var user = new IdentityUser
             {
                 UserName = usuarioRegistro.Email,
-                Email = usuarioRegistro.Email,
+                Email = usuarioRegistro.Email,  
                 EmailConfirmed = true
             };
 
@@ -37,6 +38,7 @@ namespace NSE.WebApp.MVC.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, false);
+                return Ok();
             }
 
             return BadRequest();
@@ -49,7 +51,7 @@ namespace NSE.WebApp.MVC.Controllers
 
             var result = await _signInManager.PasswordSignInAsync(usuarioLogin.Email, usuarioLogin.Senha, false, true);
 
-            if(result.Succeeded)
+            if (result.Succeeded)
             {
                 return Ok();
             }
