@@ -172,6 +172,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.3.3, )"
+            },
+            "microsoft.aspnetcore.authentication.jwtbearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
             }
           },
           "imports": [
