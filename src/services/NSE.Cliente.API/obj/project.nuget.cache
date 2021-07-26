@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DhtXESKDv2hkkhfGtoFCchbNg3Tlxbo+U+1RPsqJZjHfBYL0RVDHA4Ie+pTY9nhEsoFyM7+tOMMosKQJz/FMSg==",
+  "dgSpecHash": "GL3gXB3Rbbf+zAo3jVz6V4JGtXO/5KCjJzfDH5dOaQsJ1rfyQstpch+Du6uc1Pbnfz5eN6vkgoMm1ZDXor1Wsg==",
   "success": true,
-  "projectFilePath": "C:\\Estudo\\.net\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
+  "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
   ],

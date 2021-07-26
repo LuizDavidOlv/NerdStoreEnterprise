@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Dy2k9jIem5gNHsLeGRkPnmbjRh4jjvtmHDLtUauG/KTmH1MKrxp1UaEDyDTKc4I8xO4xH5Ij1HKnLmo/F1YeA==",
+  "dgSpecHash": "2qr5tTEC18wLPTxdC+n/G6HGRGVHoONgQrcDroPklGVim7B8OOUjADWneI2CYD1MHS3ePcfCEH1GiVyuIYi//g==",
   "success": true,
-  "projectFilePath": "C:\\Estudo\\.net\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
+  "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
