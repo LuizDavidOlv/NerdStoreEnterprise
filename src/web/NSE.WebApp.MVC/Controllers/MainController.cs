@@ -11,9 +11,12 @@ namespace NSE.WebApp.MVC.Controllers
     {
         protected bool ResponsePossuiErros(ResponseResult resposta)
         {
-            //verificar aqui
-            if (resposta != null && resposta.Erros.Mensagens.Any())
+            if (resposta != null && resposta.Errors.Mensagens.Any())
             {
+                foreach(var mensagem in resposta.Errors.Mensagens)
+                {
+                    ModelState.AddModelError(string.Empty, mensagem);
+                }
                 return true;
             }
             return false;
