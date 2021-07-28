@@ -797,3 +797,4 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
