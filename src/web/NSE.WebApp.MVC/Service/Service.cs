@@ -3,12 +3,29 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Text;
+using System.Text.Json;
 using System.Threading.Tasks;
 
 namespace NSE.WebApp.MVC.Service
 {
     public abstract class Service
     {
+        protected StringContent SerializarConteudo(object dado)
+        {
+            return new StringContent(JsonSerializer.Serialize(dado), Encoding.UTF8, "application/json");
+        }
+
+        protected async Task<T> DeserializarObjectResponse<T>(HttpResponseMessage responseMessage)
+        {
+            var options = new JsonSerializerOptions
+            {
+                PropertyNameCaseInsensitive = true,
+            };
+
+            return JsonSerializer.Deserialize<T>(await responseMessage.Content.ReadAsStringAsync(), options);
+        }
+
         protected bool TratarErrosResponse(HttpResponseMessage response)
         {
             switch((int)response.StatusCode)
