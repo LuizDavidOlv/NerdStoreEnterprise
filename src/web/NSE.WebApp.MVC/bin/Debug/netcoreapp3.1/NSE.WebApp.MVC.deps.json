@@ -1713,6 +1713,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.3",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.13",
+          "NSE.WebApi.Core": "1.0.0",
           "Swashbuckle.AspNetCore": "5.3.3"
         },
         "runtime": {
@@ -1720,6 +1721,17 @@
         },
         "compile": {
           "NSE.Identidade.API.dll": {}
+        }
+      },
+      "NSE.WebApi.Core/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10"
+        },
+        "runtime": {
+          "NSE.WebApi.Core.dll": {}
+        },
+        "compile": {
+          "NSE.WebApi.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4176,6 +4188,11 @@
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
     "NSE.Identidade.API/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NSE.WebApi.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
