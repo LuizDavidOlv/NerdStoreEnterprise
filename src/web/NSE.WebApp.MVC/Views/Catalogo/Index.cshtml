@@ -17,22 +17,22 @@
                 @{
                     foreach (var produto in Model.OrderBy(p=>p.Nome))
                     {
-                        <div class="col-md-3">
-                            <div href="#" class="card card-product-grid">
-                                <a asp-controller="Catalogo" asp-action="ProdutoDetalhe" asp-route-id="@produto.Id" class="img-wrap">
-                                    <img src="~/images/produtos/@produto.Imagem" alt="@produto.Nome">
+                        <div class="d-flex card m-2 p-2 justify-content-center" style="width: 200px">
+                            <div href="#">
+                                <a asp-controller="Catalogo" asp-action="ProdutoDetalhe" asp-route-id="@produto.Id" style="min-width: 200px; max-width: 200px; min-height: 100px; max-height: 100px;" >
+                                    <img src="~/images/produtos/@produto.Imagem" alt="@produto.Nome" class="img-fluid" >
                                 </a>
-                                <figcaption class="info-wrap">
+                                <figcaption >
                                     <a asp-controller="Catalogo" asp-action="ProdutoDetalhe" asp-route-id="@produto.Id" class="title">
                                         <b> @produto.Nome</b>
                                     </a>
 
-                                    <small class="card-text">
-                                        @this.(produto.QuantidadeEstoque)<br/><br/>
+                                    <small>
+                                        @this.(@produto.QuantidadeEstoque)<br/><br/>
                                         @produto.Descricao
                                     </small>
                                 </figcaption>
-                                <div class="card-footer price mt-1">
+                                <div >
                                     <h3>@this.(@produto.Valor)</h3>
                                 </div>
                             </div>
