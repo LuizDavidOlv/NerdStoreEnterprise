@@ -904,7 +904,6 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Hosting.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Http.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.Abstractions.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Localization.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\Microsoft.Extensions.Logging.Configuration.dll
@@ -1204,3 +1203,7 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll

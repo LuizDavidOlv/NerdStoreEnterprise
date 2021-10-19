@@ -154,3 +154,4 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.CopyComplete
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.AssemblyReference.cache

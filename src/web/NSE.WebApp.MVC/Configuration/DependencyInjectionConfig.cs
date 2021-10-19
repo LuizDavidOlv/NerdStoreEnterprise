@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Polly;
+using Polly.Extensions.Http;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -16,8 +18,15 @@ namespace NSE.WebApp.MVC.Configuration
         {
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
             services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
+
             services.AddHttpClient<ICatalogoService, CatalogoService>()
-                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>();
+                .AddHttpMessageHandler<HttpClientAuthorizationDelegatingHandler>()
+                //.AddTransientHttpErrorPolicy(
+                //p => p.WaitAndRetryAsync(3, _ => TimeSpan.FromMilliseconds(600)));
+                .AddPolicyHandler(PollyExtensions.tryRetry())
+                .AddTransientHttpErrorPolicy(
+                    p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
+
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddScoped<IUser, AspNetUser>();
 
