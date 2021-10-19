@@ -33,7 +33,6 @@ namespace NSE.Catalogo.API.Controllers
         [ClaimsAuthorize("Catalogo","Ler")]
         public async Task<Produto> ProdutoDetalhe(Guid Id)
         {
-            throw new Exception();
             return await _produtoRepository.ObterPorId(Id);
         }
     }

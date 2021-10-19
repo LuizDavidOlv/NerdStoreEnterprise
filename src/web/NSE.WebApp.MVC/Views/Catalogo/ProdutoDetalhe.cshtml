@@ -9,7 +9,7 @@
             <aside class="col-md-6">
                 <article class="gallery-wrap">
                     <div class="img-big-wrap" style="text-align: center">
-                        <img src="~/images/produtos/@Model.Imagem" alt="@Model.Nome">
+                        <img src="~/images/produtos/@Model.Imagem" alt="@Model.Nome" style="max-width: 80%;object-fit: contain">
                     </div>
                 </article>
             </aside>
@@ -36,11 +36,11 @@
                     </div>
 
                     <div class="mb-3">
-                        <var class="price h4">@this.(Model.Valor)</var>
+                        <var class="price h4">@this.FormatoMoeda(Model.Valor)</var>
                     </div>
 
                     <h5>@Model.Descricao</h5><br />
-                    <p> @this.(Model.QuantidadeEstoque)</p>
+                    <p> @this.MensagemEstoque(Model.QuantidadeEstoque)</p>
 
                     <hr>
 
