@@ -1,11 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using NSE.Core.DomainObjects;
+using System;
 
 namespace NSE.Cliente.API.Models
 {
-    public class Endereco
+    public class Endereco :Entity
     {
         public string Logradouro { get; private set; }
         public string Numero { get; private set; }
