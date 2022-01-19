@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZwuMcJtBsgKIxjsuZkVvsGIj3Sp1oplm0x0Z9oWN++jhL/ZF4bQTcJ+7e6/oMLMCnmyFjaFHy/ry28uxS3GnVQ==",
+  "dgSpecHash": "GmCHZErI09pwMstUIINq/9EfKiBzHomMec4HqCwO5vZtaBsT4OgCQ3zQmFATQrkdJvjHMKfJFgPuYzb5wamv2g==",
   "success": true,
   "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ldavidda\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

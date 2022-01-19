@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Yp5Ckya2juUdByqbgCgOOuRhKgPD7u3KDksZkOlYpsmzXK4ly570ek4J1AbAOdRG89mmq2A8cjZQlrU7Apm54w==",
+  "dgSpecHash": "Y5YygwQirDHe5HnzAOwb8rx/0zHuDU/QZdOG28MrXWczDkPYoggvQSMKZXK7NYCsx29aWPFWzYQZG/y+PgciTA==",
   "success": true,
   "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ldavidda\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512"
+  ],
   "logs": []
 }

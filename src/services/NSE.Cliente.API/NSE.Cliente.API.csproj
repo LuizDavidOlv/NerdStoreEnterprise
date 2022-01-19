@@ -22,5 +22,10 @@
     <ProjectReference Include="..\..\building blocks\NSE.Core\NSE.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Application\Events\" />
+    <Folder Include="Application\Queries\" />
+  </ItemGroup>
+
 
 </Project>
