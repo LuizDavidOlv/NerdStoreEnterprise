@@ -803,6 +803,7 @@ C:/Estudo/.net/NerdStoreEnterprise/src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.deps.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.runtimeconfig.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.runtimeconfig.dev.json
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.exe
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.json
@@ -1109,6 +1110,8 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -1123,6 +1126,8 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -1203,8 +1208,3 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml

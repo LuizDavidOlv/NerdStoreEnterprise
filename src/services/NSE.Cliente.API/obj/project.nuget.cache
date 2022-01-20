@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "GmCHZErI09pwMstUIINq/9EfKiBzHomMec4HqCwO5vZtaBsT4OgCQ3zQmFATQrkdJvjHMKfJFgPuYzb5wamv2g==",
+  "dgSpecHash": "xIJYvjwSCITYugVckumOTDV8P+t2Z/e4R8qdX6iQleFgiv2U8zBe3ZT+IyJwzw10JuZclk9+B9M78ekyleDkeQ==",
   "success": true,
   "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldavidda\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\ldavidda\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\ldavidda\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\8.0.0\\mediatr.extensions.microsoft.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
