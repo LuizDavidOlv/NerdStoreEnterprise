@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace NSE.Cliente.API.Data
 {
-    public class ClientesContext : DbContext, IUnityOfWork
+    public class ClientesContext : DbContext, IUnitOfWork
     {
         public ClientesContext(DbContextOptions<ClientesContext> options) : base(options) 
         {

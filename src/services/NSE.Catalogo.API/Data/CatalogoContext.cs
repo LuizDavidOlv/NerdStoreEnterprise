@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace NSE.Catalogo.API.Data
 {
-    public class CatalogoContext : DbContext, IUnityOfWork
+    public class CatalogoContext : DbContext, IUnitOfWork
     {
         public CatalogoContext(DbContextOptions<CatalogoContext> options) :base(options) { }
 
