@@ -1,10 +1,9 @@
-﻿using Abp.Domain.Uow;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using NSE.Cliente.API.Models;
-using System;
+using NSE.Core.Data;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace NSE.Cliente.API.Data.Repository
 {
@@ -17,7 +16,8 @@ namespace NSE.Cliente.API.Data.Repository
             _context = context;
         }
 
-        public IUnitOfWork UnitOfWork => (IUnitOfWork)_context;
+        public IUnitOfWork UnitOfWork => _context;
+
 
         public void Adicionar(Models.Cliente cliente)
         {

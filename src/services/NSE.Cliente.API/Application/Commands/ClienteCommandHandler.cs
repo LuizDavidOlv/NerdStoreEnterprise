@@ -21,7 +21,7 @@ namespace NSE.Cliente.API.Application.Commands
 
         public async Task<ValidationResult> Handle(RegistrarClienteCommand message, CancellationToken cancellationToken)
         {
-            if (!message.EhValido())
+            if (!message.EhValido()) //Aqui ainda está retornando erro com status 200
             {
                 return message.ValidationResult;
             }

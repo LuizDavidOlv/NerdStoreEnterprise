@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
+using NSE.WebApi.Core.Controllers;
 using NSE.WebApi.Core.Identidade;
 using System;
 using System.Collections.Generic;
