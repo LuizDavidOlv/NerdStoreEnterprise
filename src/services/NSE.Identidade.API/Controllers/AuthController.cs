@@ -53,7 +53,7 @@ namespace NSE.Identidade.API.Controllers
 
             foreach(var error in result.Errors)
             {
-                AdicionarErrosProcessamento(error.Description);
+                AdicionarErroProcessamento(error.Description);
             }
             return CustomResponse();
         }
@@ -72,11 +72,11 @@ namespace NSE.Identidade.API.Controllers
 
             if(result.IsLockedOut)
             {
-                AdicionarErrosProcessamento("Usuário temporariamente bloqueado por tentativas inválidas");
+                AdicionarErroProcessamento("Usuário temporariamente bloqueado por tentativas inválidas");
                 return CustomResponse();
             }
 
-            AdicionarErrosProcessamento("Usuário ou senha inváldos");
+            AdicionarErroProcessamento("Usuário ou senha inváldos");
             return CustomResponse();
         }
 
