@@ -42,7 +42,7 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[8.6.2, )"
+              "version": "[10.3.6, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",

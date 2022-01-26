@@ -45,7 +45,6 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.runtimeconfig.dev.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.csproj.AssemblyReference.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.AssemblyInfoInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.AssemblyInfo.cs
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.csproj.CoreCompileInputs.cache
