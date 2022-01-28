@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "mUPCKeWCLCJRJ4G0b/ac9G1pJnjNpSqiJF0/28fCAtTfYpn5E/kpPEi7Zim4dk3EyVi5z+xgY2ODGEeXbwDoHg==",
+  "dgSpecHash": "+w3ltihOIBTzp+DsnDOUtn1TVXtZQMWRgVZvwKZkXc9uCZ4OG+Zd75cdLK7zM5XvK2t3kvsNBZHxdJqoNSnBvg==",
   "success": true,
   "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ldavidda\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
+    "C:\\Users\\ldavidda\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.3\\microsoft.aspnetcore.cryptography.internal.3.1.3.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.3\\microsoft.aspnetcore.cryptography.keyderivation.3.1.3.nupkg.sha512",

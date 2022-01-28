@@ -1209,3 +1209,6 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\MediatR.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Core.pdb

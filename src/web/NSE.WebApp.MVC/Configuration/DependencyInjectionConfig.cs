@@ -9,6 +9,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Polly;
 using Polly.Extensions.Http;
+using Microsoft.AspNetCore.Mvc.DataAnnotations;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -16,6 +17,7 @@ namespace NSE.WebApp.MVC.Configuration
     {
         public static void RegisterServices(this IServiceCollection services)
         {
+            services.AddSingleton<IValidationAttributeAdapterProvider, CpfValidationAttributeAdapterProvider>();
             services.AddTransient<HttpClientAuthorizationDelegatingHandler>();
             services.AddHttpClient<IAutenticacaoService, AutenticacaoService>();
 
