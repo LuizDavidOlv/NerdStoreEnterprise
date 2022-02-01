@@ -86,6 +86,11 @@ C:/Estudo/.net/NerdStoreEnterprise/src/services/NSE.Catalogo.API/obj/Debug/netco
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Catalogo.API/obj/Debug/netcoreapp3.1/NSE.Catalogo.API.dll
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Catalogo.API/obj/Debug/netcoreapp3.1/NSE.Catalogo.API.pdb
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Catalogo.API/obj/Debug/netcoreapp3.1/NSE.Catalogo.API.genruntimeconfig.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfoInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.CoreCompileInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.Catalogo.API.exe
@@ -143,12 +148,7 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.AssemblyReference.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfoInputs.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.AssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Catalogo.API.StaticWebAssets.Manifest.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Catalogo.API.StaticWebAssets.xml
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Catalogo.API.styles.css

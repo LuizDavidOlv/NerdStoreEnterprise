@@ -151,6 +151,11 @@ C:/Estudo/.net/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/net
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.genruntimeconfig.cache
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.csproj.AssemblyReference.cache
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfoInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.CoreCompileInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
@@ -160,6 +165,9 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Identidade.API.runtimeconfig.dev.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\EasyNetQ.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -198,6 +206,8 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Polly.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -213,14 +223,13 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.AssemblyReference.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfoInputs.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Identidade.API.StaticWebAssets.Manifest.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Identidade.API.StaticWebAssets.xml
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Identidade.API.styles.css
@@ -229,4 +238,3 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.genruntimeconfig.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
