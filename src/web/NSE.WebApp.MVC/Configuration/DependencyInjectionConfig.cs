@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 using Polly;
 using Polly.Extensions.Http;
 using Microsoft.AspNetCore.Mvc.DataAnnotations;
+using NSE.WebAPI.Core.Usuario;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -30,7 +31,7 @@ namespace NSE.WebApp.MVC.Configuration
                     p => p.CircuitBreakerAsync(5, TimeSpan.FromSeconds(30)));
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            services.AddScoped<IUser, AspNetUser>();
+            services.AddScoped<IAspNetUser, AspNetUser>();
 
         }
     }

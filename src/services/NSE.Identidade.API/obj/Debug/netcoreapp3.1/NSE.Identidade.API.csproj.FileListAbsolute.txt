@@ -151,11 +151,6 @@ C:/Estudo/.net/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/net
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.genruntimeconfig.cache
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.csproj.AssemblyReference.cache
 /Users/Oliveira/Documents/Projetos/NerdStoreEnterprise/src/services/NSE.Identidade.API/obj/Debug/netcoreapp3.1/NSE.Identidade.API.GeneratedMSBuildEditorConfig.editorconfig
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.AssemblyReference.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfoInputs.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.CoreCompileInputs.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
@@ -229,7 +224,13 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfoInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.AssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Identidade.API.StaticWebAssets.Manifest.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Identidade.API.StaticWebAssets.xml
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.RazorTargetAssemblyInfo.cache
@@ -237,4 +238,3 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debu
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.genruntimeconfig.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.GeneratedMSBuildEditorConfig.editorconfig

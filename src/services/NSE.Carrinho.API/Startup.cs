@@ -6,11 +6,11 @@ using Microsoft.Extensions.Hosting;
 using NSE.Carrinho.API.Configuration;
 using NSE.WebApi.Core.Identidade;
 
+
 namespace NSE.Carrinho.API
 {
     public class Startup
     {
-        
         public IConfiguration Configuration { get; }
 
         public Startup(IHostEnvironment hostEnvironment)
@@ -29,7 +29,6 @@ namespace NSE.Carrinho.API
             Configuration = builder.Build();
         }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddApiConfiguration(Configuration);
@@ -41,11 +40,8 @@ namespace NSE.Carrinho.API
             services.RegisterServices();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-
-
             app.UseSwaggerConfiguration();
 
             app.UseApiConfiguration(env);

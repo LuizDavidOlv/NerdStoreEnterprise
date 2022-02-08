@@ -45,6 +45,8 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\ne
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\netcoreapp3.1\NSE.Pedido.API.runtimeconfig.dev.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\netcoreapp3.1\NSE.Pedido.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\bin\Debug\netcoreapp3.1\NSE.Pedido.API.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.AssemblyInfoInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.AssemblyInfo.cs
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.csproj.CoreCompileInputs.cache
@@ -54,5 +56,3 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\ne
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.genruntimeconfig.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.csproj.AssemblyReference.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pedido.API\obj\Debug\netcoreapp3.1\NSE.Pedido.API.GeneratedMSBuildEditorConfig.editorconfig

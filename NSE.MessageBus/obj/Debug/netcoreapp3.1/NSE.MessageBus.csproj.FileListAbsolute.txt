@@ -1,13 +1,13 @@
-C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfoInputs.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfo.cs
-C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.deps.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfo.cs
+C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
