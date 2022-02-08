@@ -23,7 +23,7 @@
 //            _user = user;
 //            _context = context;
 //        }
-        
+
 //        [HttpGet("carrinho")]
 //        public async Task<CarrinhoCliente> ObterCarrinho()
 //        {
@@ -38,11 +38,11 @@
 //            if (carrinho == null)
 //            {
 //                ManipularNovoCarrinho(item);
-//            } 
+//            }
 //            else
 //            {
 //                ManipularCarrinhoExistente(carrinho, item);
-//            }  
+//            }
 
 //            if (!OperacaoValida()) return CustomResponse();
 

@@ -50,10 +50,9 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Pagamento.API.StaticWebAssets.Manifest.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Pagamento.API.StaticWebAssets.xml
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Pagamento.API.styles.css
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.RazorTargetAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.genruntimeconfig.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.GeneratedMSBuildEditorConfig.editorconfig

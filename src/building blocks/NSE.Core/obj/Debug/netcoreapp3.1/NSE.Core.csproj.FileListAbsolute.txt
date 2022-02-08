@@ -24,3 +24,4 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.Core\bin\Debug\n
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.csproj.AssemblyReference.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.Core\obj\Debug\netcoreapp3.1\NSE.Core.GeneratedMSBuildEditorConfig.editorconfig

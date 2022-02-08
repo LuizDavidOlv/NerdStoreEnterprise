@@ -150,10 +150,9 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Catalogo.API.StaticWebAssets.Manifest.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Catalogo.API.StaticWebAssets.xml
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Catalogo.API.styles.css
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.RazorTargetAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.csproj.CopyComplete
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.GeneratedMSBuildEditorConfig.editorconfig

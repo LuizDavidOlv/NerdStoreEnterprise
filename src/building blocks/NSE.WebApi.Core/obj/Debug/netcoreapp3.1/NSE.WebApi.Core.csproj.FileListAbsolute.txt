@@ -16,3 +16,4 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.CoreCompileInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.GeneratedMSBuildEditorConfig.editorconfig

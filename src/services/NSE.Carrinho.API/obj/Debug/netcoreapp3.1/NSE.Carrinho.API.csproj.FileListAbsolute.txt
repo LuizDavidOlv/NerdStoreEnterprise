@@ -97,10 +97,9 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.MvcApplicationPartsAssemblyInfo.cs
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Carrinho.API.StaticWebAssets.Manifest.cache
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\staticwebassets\NSE.Carrinho.API.StaticWebAssets.xml
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\scopedcss\bundle\NSE.Carrinho.API.styles.css
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.RazorTargetAssemblyInfo.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.csproj.CopyComplete
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.genruntimeconfig.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.GeneratedMSBuildEditorConfig.editorconfig
