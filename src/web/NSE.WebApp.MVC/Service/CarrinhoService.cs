@@ -13,34 +13,65 @@ namespace NSE.WebApp.MVC.Service
     {
         private readonly HttpClient _httpClient;
 
-        public async Task<CarrinhoViewModel> ObterCarrinho()
-        {
-            var response = await _httpClient.GetAsync("/carrinho/");
-
-            TratarErrosResponse(response);
-
-            return await DeserializarObjectResponse<CarrinhoViewModel>(response);
-        }
-        public CarrinhoService(HttpClient httpClient,IOptions<AppSettings> settings)
+        public CarrinhoService(HttpClient httpClient, IOptions<AppSettings> settings)
         {
             _httpClient = httpClient;
             _httpClient.BaseAddress = new Uri(settings.Value.CarrinhoUrl);
         }
 
-        public Task<ResponseResult> AdicionarItemCarrinho(ItemProdutoViewModel produto)
+        public async Task<CarrinhoViewModel> ObterCarrinho()
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.GetAsync("/carrinho");
+
+            TratarErrosResponse(response);
+
+            return await DeserializarObjectResponse<CarrinhoViewModel>(response);
+        }
+       
+
+        public async Task<ResponseResult> AdicionarItemCarrinho(ItemProdutoViewModel produto)
+        {
+            var itemContent = SerializarConteudo(produto);
+            var response = await _httpClient.PostAsync("/carrinho",itemContent);
+
+            TratarErrosResponse(response);
+
+            if(!TratarErrosResponse(response))
+            {
+                return await DeserializarObjectResponse<ResponseResult>(response);
+            }
+
+            return RetornoOk();
         }
 
-        public Task<ResponseResult> AtualizarItemCarrinho(Guid produtoId, ItemProdutoViewModel produto)
+        public async Task<ResponseResult> AtualizarItemCarrinho(Guid produtoId, ItemProdutoViewModel produto)
         {
-            throw new NotImplementedException();
+            var itemContent = SerializarConteudo(produto);
+            var response = await _httpClient.PutAsync($"/carrinho/{produto.ProdutoId}", itemContent);
+
+            TratarErrosResponse(response);
+
+            if (!TratarErrosResponse(response))
+            {
+                return await DeserializarObjectResponse<ResponseResult>(response);
+            }
+
+            return RetornoOk();
         }
 
 
-        public Task<ResponseResult> RemoverItemCarrinho(Guid produtoId)
+        public async Task<ResponseResult> RemoverItemCarrinho(Guid produtoId)
         {
-            throw new NotImplementedException();
+            var response = await _httpClient.DeleteAsync($"/carrinho/{produtoId}");
+
+            TratarErrosResponse(response);
+
+            if (!TratarErrosResponse(response))
+            {
+                return await DeserializarObjectResponse<ResponseResult>(response);
+            }
+
+            return RetornoOk();
         }
     }
 }
