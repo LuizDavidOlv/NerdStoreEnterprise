@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NSE.Core.Communication;
 using NSE.WebApp.MVC.Models;
 using System;
 using System.Collections.Generic;
@@ -20,6 +21,16 @@ namespace NSE.WebApp.MVC.Controllers
                 return true;
             }
             return false;
+        }
+
+        protected void AdicionarErroValidacao(string mensagem)
+        {
+            ModelState.AddModelError(string.Empty, mensagem);
+        }
+
+        protected bool OperacaoValida()
+        {
+            return ModelState.ErrorCount == 0;
         }
     }
 }
