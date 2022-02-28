@@ -10,16 +10,4 @@ namespace NSE.WebApp.MVC.Models
         public string Mensagem { get; set; }
     }
 
-    public class ResponseResult
-    {
-        public string Title { get; set; }
-        public int Status { get; set; }
-        public ResponseErroMessages Errors { get; set; }
-    }
-
-    public class ResponseErroMessages
-    {
-        public List<string> Mensagens { get; set; }
-    }
-
 }
