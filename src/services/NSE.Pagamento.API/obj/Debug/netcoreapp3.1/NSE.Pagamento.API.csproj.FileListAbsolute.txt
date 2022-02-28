@@ -45,7 +45,6 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug\netcoreapp3.1\NSE.Pagamento.API.runtimeconfig.dev.json
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug\netcoreapp3.1\NSE.Pagamento.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\bin\Debug\netcoreapp3.1\NSE.Pagamento.API.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csproj.AssemblyReference.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.AssemblyInfoInputs.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.AssemblyInfo.cs
@@ -56,3 +55,4 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.genruntimeconfig.cache
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\services\NSE.Pagamento.API\obj\Debug\netcoreapp3.1\NSE.Pagamento.API.csproj.AssemblyReference.cache

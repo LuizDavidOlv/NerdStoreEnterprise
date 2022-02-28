@@ -375,11 +375,11 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcore
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
-C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb
+C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.csproj.AssemblyReference.cache
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.GeneratedMSBuildEditorConfig.editorconfig
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.AssemblyInfoInputs.cache

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CL2SUNVRt6lHHl2Jhi5Y46O/K7030uVO8ioJcIhlIKo6G3w2hDL0vQWTyJ14Ku5xT0pt5texNyG2yQtsBPIJLw==",
+  "dgSpecHash": "uOQCUQN7lDbyUj8MmjS+hnl+t9pZAhWrsMRT31vM6JtViEUnijQ8KGyPDNcnBDX6LZLPDVvHSsJicKly+sX/Yw==",
   "success": true,
   "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Identidade.API\\NSE.Identidade.API.csproj",
   "expectedPackageFiles": [
@@ -52,6 +52,7 @@
     "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
+    "C:\\Users\\ldavidda\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\rabbitmq.client\\6.0.0\\rabbitmq.client.6.0.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\ldavidda\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
