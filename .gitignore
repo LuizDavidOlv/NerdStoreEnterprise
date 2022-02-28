@@ -1,0 +1,8 @@
+
+src/services/NSE.Pedido.API/obj/Container/ContainerName.cache
+
+*.cache
+
+.vs/NerdStoreEnterprise/DesignTimeBuild/.dtbcache.v2
+
+.vs/NerdStoreEnterprise/v16/suo8D92.tmp
