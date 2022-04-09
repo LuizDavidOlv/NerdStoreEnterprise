@@ -6123,19 +6123,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ldavidda\\.nuget\\packages\\": {}
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+      "projectUniqueName": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
       "projectName": "NSE.Catalogo.API",
-      "projectPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
-      "packagesPath": "C:\\Users\\ldavidda\\.nuget\\packages\\",
-      "outputPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\obj\\",
+      "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
+      "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
+      "outputPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ldavidda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6149,11 +6149,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
-              "projectPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+            "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+              "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
             },
-            "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebApi.Core\\NSE.WebApi.Core.csproj": {
-              "projectPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebApi.Core\\NSE.WebApi.Core.csproj"
+            "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebApi.Core\\NSE.WebApi.Core.csproj": {
+              "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebApi.Core\\NSE.WebApi.Core.csproj"
             }
           }
         }
@@ -6215,7 +6215,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

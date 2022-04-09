@@ -21,3 +21,16 @@ C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.CopyComplete
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
 C:\Cencosud\Estudos\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.deps.json
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.AssemblyReference.cache
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.AssemblyInfoInputs.cache
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.AssemblyInfo.cs
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.CoreCompileInputs.cache
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.csproj.CopyComplete
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Siemens\Git\NerdStoreEnterprise\src\building blocks\NSE.WebApi.Core\obj\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb

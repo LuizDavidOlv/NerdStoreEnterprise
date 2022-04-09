@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {}
+    "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {}
   },
   "projects": {
-    "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {
+    "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+        "projectUniqueName": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
         "projectName": "NSE.Pedido.API",
-        "projectPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
-        "packagesPath": "C:\\Users\\ldavidda\\.nuget\\packages\\",
-        "outputPath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\obj\\",
+        "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+        "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
+        "outputPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ldavidda\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

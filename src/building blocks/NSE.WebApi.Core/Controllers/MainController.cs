@@ -15,7 +15,7 @@ namespace NSE.WebApi.Core.Controllers
 
         protected ActionResult CustomResponse(object result = null)
         {
-            if (!OperacaoValida())
+            if (OperacaoValida())
             {
                 return Ok(result);
             }

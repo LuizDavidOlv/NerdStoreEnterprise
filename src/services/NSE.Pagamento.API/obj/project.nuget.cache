@@ -1,10 +1,32 @@
 {
   "version": 2,
-  "dgSpecHash": "8NHT9KAn83NsU5YkNlPIYasgD1Lk4GBHyHYUdqR8i3/TBcTwPs/hg8TXtlc+d8HUah3KeZCN2YuljolKf5yO8w==",
+  "dgSpecHash": "McutLazg6pmltcngn7J0umsBTje8ds3nwpbnpjx8ZFhHDqPlCuoL1SAnFb2I78WyWqaRAR5ZFB/pEgGP+exswA==",
   "success": true,
-  "projectFilePath": "C:\\Cencosud\\Estudos\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ldavidda\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.entityframeworkcore\\3.1.13\\microsoft.entityframeworkcore.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.1.13\\microsoft.entityframeworkcore.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.1.13\\microsoft.entityframeworkcore.analyzers.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.entityframeworkcore.design\\3.1.13\\microsoft.entityframeworkcore.design.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\3.1.13\\microsoft.entityframeworkcore.relational.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.13\\microsoft.extensions.caching.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.13\\microsoft.extensions.caching.memory.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.13\\microsoft.extensions.configuration.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.13\\microsoft.extensions.configuration.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.1.13\\microsoft.extensions.configuration.binder.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.1.13\\microsoft.extensions.dependencyinjection.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.13\\microsoft.extensions.dependencyinjection.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.logging\\3.1.13\\microsoft.extensions.logging.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.13\\microsoft.extensions.logging.abstractions.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.options\\3.1.13\\microsoft.extensions.options.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.13\\microsoft.extensions.primitives.3.1.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\system.collections.immutable\\1.7.1\\system.collections.immutable.1.7.1.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }
