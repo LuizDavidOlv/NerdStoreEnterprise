@@ -386,3 +386,5 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Com
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.genruntimeconfig.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
