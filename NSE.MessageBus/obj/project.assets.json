@@ -350,11 +350,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Siemens\\Git\\NerdStoreEnterprise\\NSE.MessageBus\\NSE.MessageBus.csproj",
+      "projectUniqueName": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\NSE.MessageBus\\NSE.MessageBus.csproj",
       "projectName": "NSE.MessageBus",
-      "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\NSE.MessageBus\\NSE.MessageBus.csproj",
+      "projectPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\NSE.MessageBus\\NSE.MessageBus.csproj",
       "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
-      "outputPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\NSE.MessageBus\\obj\\",
+      "outputPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\NSE.MessageBus\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -371,8 +371,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
-              "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
+            "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj": {
+              "projectPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj"
             }
           }
         }
@@ -415,7 +415,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zNKJjcVjN/7ax3oWdnPaM9GxqeEPasD56BTaZgZYt1mPlNU/Vfq8xhCfPOH/oOKdAKvKNQTyrlnE/nQu0WfHmQ==",
+  "dgSpecHash": "6dhdG0mNcbwVTJQaW+SJd8bw7QdgOIpKisxRYfP2W71o8b1H8BMYAqMwCmzg8PkHcahL3HXma+zy2f/5NyPtzA==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\api gateway\\NSE.BFF.Compras\\NSE.BFF.Compras.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\api gateway\\NSE.BFF.Compras\\NSE.BFF.Compras.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FsEUQVzG4pFjc41X5YO3i3KIk/e8LEhYg9LmQNK2ItXvrzULACeW+daGpK8/SVM+0v1eWqAp74n4peVk71Nhdg==",
+  "dgSpecHash": "nOQ69lj/H33OsfDz/13R2zZ/rcYPFrRVIE8VWzSbFAnbjY0unyXfrYtQYXKTCrBtiYbP7IwcPEfufH5GsqrnAw==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Cliente.API\\NSE.Cliente.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",

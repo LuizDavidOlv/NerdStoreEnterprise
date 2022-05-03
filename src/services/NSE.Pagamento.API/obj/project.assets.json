@@ -866,11 +866,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+      "projectUniqueName": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
       "projectName": "NSE.Pagamento.API",
-      "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+      "projectPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
       "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
-      "outputPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\obj\\",
+      "outputPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -928,7 +928,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

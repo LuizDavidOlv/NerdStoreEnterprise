@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pqtjweT9OdbfmUd9NXG5rJ6YfTbORUGfVAJjIMiGz7GMgKl51h4fBSfey9jmYrUl8f1w6yvGHMu3K2J1Xc8MwA==",
+  "dgSpecHash": "4EbjOX+5GrXlV0qHRYFvVTPA+LKdCNJCY0X+iGQ5Ci/UUV5P1owy2DZfo6tJltPaMdC7/hSm5OYZ/PeOQDdplQ==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pedido.API\\NSE.Pedido.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512"
   ],
