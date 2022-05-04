@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Du+gZaIUcfrA3u0ifz5mV7a0P5HGMlv+Mbi9fZ2fk7YbX3OWZQf5LALXtfK99Fp1ZY9lCC6hWhNdSaln61ykHw==",
+  "dgSpecHash": "jm259Oi4EX771rZyNnzRDOGsMYUUrAUdCpwov6U8Ai6QJ42LshMWynZ7Bd+FT7Sxls5Y4Xed7nkG4WffnmFalg==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",

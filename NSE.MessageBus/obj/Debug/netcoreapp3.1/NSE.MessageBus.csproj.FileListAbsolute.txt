@@ -24,3 +24,16 @@ C:\Siemens\Git\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.Me
 C:\Siemens\Git\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
 C:\Siemens\Git\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
 C:\Siemens\Git\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.deps.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.AssemblyReference.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfoInputs.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.AssemblyInfo.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CoreCompileInputs.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.csproj.CopyComplete
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\NSE.MessageBus\obj\Debug\netcoreapp3.1\NSE.MessageBus.pdb

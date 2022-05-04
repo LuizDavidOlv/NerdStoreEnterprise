@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XK1wmcOKWOpLePrp1ZpQLcyflizwTE69SLoMppjt7rdOe6HlKxxIN63qGGuXNH0i7IdAIwlpr59wFX4SIAXXvA==",
+  "dgSpecHash": "ajfAqGMXxqnDbmB4TVRszb3psMrpRh5C3hMpjvSTp70jECIRBEu/tSqzKrZ4RycNa54MTkLIAOQoiCgkpBF77w==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Carrinho.API\\NSE.Carrinho.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",

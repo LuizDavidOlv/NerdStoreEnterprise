@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "McutLazg6pmltcngn7J0umsBTje8ds3nwpbnpjx8ZFhHDqPlCuoL1SAnFb2I78WyWqaRAR5ZFB/pEgGP+exswA==",
+  "dgSpecHash": "wx2uDy8MZq0gqIKuXiDwFxxX0fnRh9Us/W+DzZeXc4OZH8SUhImTzNnImFGuswemUmjt6AzjrMGGslzVEVm87Q==",
   "success": true,
-  "projectFilePath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
+  "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

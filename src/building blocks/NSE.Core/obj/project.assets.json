@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+      "projectUniqueName": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
       "projectName": "NSE.Core",
-      "projectPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
+      "projectPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
       "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
-      "outputPath": "C:\\Siemens\\Git\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\obj\\",
+      "outputPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -188,7 +188,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
