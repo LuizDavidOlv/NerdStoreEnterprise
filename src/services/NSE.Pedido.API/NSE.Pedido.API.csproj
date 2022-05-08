@@ -26,5 +26,12 @@
 		<ProjectReference Include="..\..\building blocks\NSE.WebAPI.Core\NSE.WebAPI.Core.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <Folder Include="Application\Commands\" />
+	  <Folder Include="Application\DTO\" />
+	  <Folder Include="Application\Events\" />
+	  <Folder Include="Application\Queries\" />
+	</ItemGroup>
+
 
 </Project>

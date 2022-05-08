@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using NSE.Pedido.API.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,13 +26,17 @@ namespace NSE.Pedido.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+            services.AddApiConfiguration(Configuration);
+            services.AddSwaggerConfiguration();
+            services.AddMessageBusConfiguration(Configuration);
+            services.RegisterServices();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            
+            app.UseApiConfiguration(env);
+            app.UseSwaggerConfiguration();
         }
     }
 }

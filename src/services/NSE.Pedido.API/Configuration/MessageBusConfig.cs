@@ -7,7 +7,7 @@ namespace NSE.Pedido.API.Configuration
 {
     public static class MessageBusConfig
     {
-        public static void AddMessageBusConfigutation(this IServiceCollection services, IConfiguration configuration)
+        public static void AddMessageBusConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
             services.AddMessageBus(configuration.GetMessageQueueConnection("MessageBus"));
         }

@@ -1,6 +1,13 @@
-﻿namespace NSE.Pedido.API.Configuration
+﻿using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+namespace NSE.Pedido.API.Configuration
 {
-    public class DependencyInjectionConfig
+    public static class DependencyInjectionConfig
     {
+        public static void RegisterServices(this IServiceCollection service)
+        {
+
+        }
     }
 }
