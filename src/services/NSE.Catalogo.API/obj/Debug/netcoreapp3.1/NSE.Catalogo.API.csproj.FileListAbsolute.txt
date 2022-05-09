@@ -302,3 +302,5 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll

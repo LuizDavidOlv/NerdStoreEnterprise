@@ -4,6 +4,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
+using NSE.WebApi.Core.Identidade;
+using Microsoft.EntityFrameworkCore;
+using NSE.Pedidos.Infra.Data;
+
 namespace NSE.Pedido.API.Configuration
 {
     public static class ApiConfig
@@ -12,6 +16,7 @@ namespace NSE.Pedido.API.Configuration
         {
             services.AddDbContext<PedidosContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
+
 
             services.AddControllers();
 
@@ -37,7 +42,7 @@ namespace NSE.Pedido.API.Configuration
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.UseAuthConfiguration();
 
             app.UseEndpoints(endpoints =>
             {

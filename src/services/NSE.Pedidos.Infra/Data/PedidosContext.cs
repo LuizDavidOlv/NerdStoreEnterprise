@@ -1,8 +1,10 @@
 ﻿using System;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentValidation.Results;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 using NSE.Core.Data;
 using NSE.Core.DomainObjects;
 using NSE.Core.Mediator;
@@ -12,17 +14,22 @@ using NSE.Pedidos.Domain.Pedidos;
 
 namespace NSE.Pedidos.Infra.Data
 {
-    public class PedidosContext : DbContext, IUnitOfWork
+    public class PedidosContext : DbContext
     {
         private readonly IMediatorHandler _mediatorHandler;
+
+        public PedidosContext([NotNullAttribute] DbContextOptions options) : base(options)
+        {
+        }
 
         public PedidosContext(DbContextOptions<PedidosContext> options, IMediatorHandler mediatorHandler) : base(options)
         {
             _mediatorHandler = mediatorHandler;
         }
 
-        public DbSet<Domain.Pedidos.Pedido> Pedidos { get; set; }
-        public DbSet<PedidoItem> PedidoItems { get; set; }
+
+        //public DbSet<Domain.Pedidos.Pedido> Pedidos { get; set; }
+        //public DbSet<PedidoItem> PedidoItems { get; set; }
         public DbSet<Voucher> Vouchers { get; set; }
 
 
@@ -45,52 +52,72 @@ namespace NSE.Pedidos.Infra.Data
             base.OnModelCreating(modelBuilder);
         }
 
-        public async Task<bool> Commit()
-        {
-            foreach (var entry in ChangeTracker.Entries()
-                .Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
-            {
-                if(entry.State == EntityState.Added)
-                {
-                    entry.Property("DataCadastro").CurrentValue = DateTime.Now;
-                }
-                if(entry.State == EntityState.Modified)
-                {
-                    entry.Property("DataCadastro").IsModified = false;
-                }
-            }
 
-            var sucesso = await base.SaveChangesAsync() > 0;
+        //public async Task<bool> Commit()
+        //{
+        //    foreach (var entry in ChangeTracker.Entries()
+        //        .Where(entry => entry.Entity.GetType().GetProperty("DataCadastro") != null))
+        //    {
+        //        if(entry.State == EntityState.Added)
+        //        {
+        //            entry.Property("DataCadastro").CurrentValue = DateTime.Now;
+        //        }
+        //        if(entry.State == EntityState.Modified)
+        //        {
+        //            entry.Property("DataCadastro").IsModified = false;
+        //        }
+        //    }
 
-            if(sucesso)
-            {
-                await _mediatorHandler.PublicarEventos(this);
-            }
+        //    var sucesso = await base.SaveChangesAsync() > 0;
 
-            return sucesso;
-        }
+        //    if(sucesso)
+        //    {
+        //        await _mediatorHandler.PublicarEventos(this);
+        //    }
+
+        //    return sucesso;
+        //}
     }
-    public static class MediatorExtension
+
+    public class YourDbContextFactory : IDesignTimeDbContextFactory<PedidosContext>
     {
-        public static async Task PublicarEventos<T>(this IMediatorHandler mediator, T ctx) where T : DbContext
+        public PedidosContext CreateDbContext(string[] args)
         {
-            var domainEntities = ctx.ChangeTracker
-                .Entries<Entity>()
-                .Where(x => x.Entity.Notificacoes != null && x.Entity.Notificacoes.Any());
+            var optionsBuilder = new DbContextOptionsBuilder<PedidosContext>();
+            optionsBuilder.UseSqlServer("your connection string");
 
-            var domainEvents = domainEntities
-                .SelectMany(x => x.Entity.Notificacoes)
-                .ToList();
-
-            domainEntities.ToList()
-                .ForEach(entity => entity.Entity.LimparEventos());
-
-            var tasks = domainEvents
-                .Select(async (domainEvent) => {
-                    await mediator.PublicarEvento(domainEvent);
-                });
-
-            await Task.WhenAll(tasks);
+            return new PedidosContext(optionsBuilder.Options);
         }
+
+        // PedidosContext IDesignTimeDbContextFactory<PedidosContext>.CreateDbContext(string[] args)
+        //{
+        //    var optionsBuilder = new DbContextOptionsBuilder<PedidosContext>();
+        //    optionsBuilder.UseSqlServer("your connection string");
+
+        //    return new PedidosContext(optionsBuilder.Options);
+        //}
     }
+    //public static class MediatorExtension
+    //{
+    //    public static async Task PublicarEventos<T>(this IMediatorHandler mediator, T ctx) where T : DbContext
+    //    {
+    //        var domainEntities = ctx.ChangeTracker
+    //            .Entries<Entity>()
+    //            .Where(x => x.Entity.Notificacoes != null && x.Entity.Notificacoes.Any());
+
+    //        var domainEvents = domainEntities
+    //            .SelectMany(x => x.Entity.Notificacoes)
+    //            .ToList();
+
+    //        domainEntities.ToList()
+    //            .ForEach(entity => entity.Entity.LimparEventos());
+
+    //        var tasks = domainEvents
+    //            .Select(async (domainEvent) => {
+    //                await mediator.PublicarEvento(domainEvent);
+    //            });
+
+    //        await Task.WhenAll(tasks);
+    //    }
+    //}
 }

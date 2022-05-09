@@ -8,4 +8,8 @@
     <ProjectReference Include="..\..\building blocks\NSE.Core\NSE.Core.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Vouchers\Specs\" />
+  </ItemGroup>
+
 </Project>

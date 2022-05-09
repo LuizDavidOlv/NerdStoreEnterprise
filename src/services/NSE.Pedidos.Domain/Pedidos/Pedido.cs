@@ -1,5 +1,5 @@
 ﻿using NSE.Core.DomainObjects;
-using NSE.Pedido.API.Configuration;
+using NSE.Pedido.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -94,7 +94,7 @@ namespace NSE.Pedidos.Domain.Pedidos
             }
 
             ValorTotal = valor < 0 ? 0 : valor;
-            Desconto = desconto
+            Desconto = desconto;
         }
     }
 }

@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NSE.Pedido.API.Configuration;
-using System;
+using NSE.Pedido.Domain;
 
 namespace NSE.Pedidos.Infra
 {

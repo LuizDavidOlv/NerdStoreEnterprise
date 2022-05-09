@@ -963,7 +963,6 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Buffers.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Collections.Concurrent.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Collections.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Collections.Immutable.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Collections.NonGeneric.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Collections.Specialized.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.ComponentModel.Annotations.dll
@@ -980,7 +979,6 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Data.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Contracts.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Debug.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.DiagnosticSource.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.EventLog.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.FileVersionInfo.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\refs\System.Diagnostics.Process.dll
@@ -1252,3 +1250,5 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
