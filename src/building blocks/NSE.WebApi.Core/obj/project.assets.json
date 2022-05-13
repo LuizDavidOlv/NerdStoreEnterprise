@@ -164,6 +164,19 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "NetDevPack/1.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "8.6.2",
+          "mediatr": "8.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/NetDevPack.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetDevPack.dll": {}
+        }
+      },
       "Newtonsoft.Json/10.0.1": {
         "type": "package",
         "dependencies": {
@@ -878,6 +891,7 @@
         "dependencies": {
           "FluentValidation": "10.3.6",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "NetDevPack": "1.1.0",
           "mediatr": "8.0.1"
         },
         "compile": {
@@ -1165,6 +1179,19 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "NetDevPack/1.1.0": {
+      "sha512": "pEeSxtDUKHC1mNwFHikn2WuArzgKYIQ/MLto5xrEKAZGc5MBUuTmFHeRtlwbm2dyU5RvT0Xe/chwRJt0ezN7bg==",
+      "type": "package",
+      "path": "netdevpack/1.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "IconNuget.png",
+        "lib/netstandard2.0/NetDevPack.dll",
+        "netdevpack.1.1.0.nupkg.sha512",
+        "netdevpack.nuspec"
       ]
     },
     "Newtonsoft.Json/10.0.1": {
@@ -3770,7 +3797,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Z004JCVB\\.nuget\\packages\\": {}
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -3781,8 +3809,12 @@
       "packagesPath": "C:\\Users\\Z004JCVB\\.nuget\\packages\\",
       "outputPath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.WebApi.Core\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\Z004JCVB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

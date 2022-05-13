@@ -834,14 +834,14 @@ C:\Siemens\Git\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.
 C:\Siemens\Git\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.Views.pdb
 C:\Siemens\Git\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.csproj.CopyComplete
 C:\Siemens\Git\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.StaticWebAssets.xml
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.deps.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.runtimeconfig.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.runtimeconfig.dev.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.StaticWebAssets.xml
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.exe
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.StaticWebAssets.xml
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.exe
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.deps.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.runtimeconfig.json
@@ -1167,7 +1167,9 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -1250,5 +1252,4 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NetDevPack.dll

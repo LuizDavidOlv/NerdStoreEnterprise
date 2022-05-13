@@ -383,7 +383,9 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
@@ -415,5 +417,4 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\obj\Debug\netcoreapp3.1\NSE.Identidade.API.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Identidade.API\bin\Debug\netcoreapp3.1\NetDevPack.dll

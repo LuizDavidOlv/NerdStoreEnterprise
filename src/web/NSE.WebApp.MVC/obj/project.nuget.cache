@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "82uAOwg/M6mAgGdu35oYfgp5Ex0NR1XTVxRgEAn6UN++QqCqh5i9yok/IT4u1JkfkYxmCEC+5M8fL9D9eN4piA==",
+  "dgSpecHash": "XYrQGvEsp3jr1EGyHzEyP/HeD55oRcIqt9TEdt2zRL1NtB8VE1SS4vILFZPJuTHmwzaajvFG6czgods1RF3Hyw==",
   "success": true,
   "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\web\\NSE.WebApp.MVC\\NSE.WebApp.MVC.csproj",
   "expectedPackageFiles": [
@@ -60,6 +60,7 @@
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.openapi\\1.1.4\\microsoft.openapi.1.1.4.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",

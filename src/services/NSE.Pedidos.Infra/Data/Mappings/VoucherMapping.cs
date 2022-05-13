@@ -1,8 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using NSE.Pedido.Domain;
+using NSE.Pedidos.Domain.Vouchers;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace NSE.Pedidos.Infra
+namespace NSE.Pedidos.Infra.Data.Mappings
 {
     public class VoucherMapping : IEntityTypeConfiguration<Voucher>
     {
@@ -10,12 +13,12 @@ namespace NSE.Pedidos.Infra
         {
             builder.HasKey(c => c.Id);
 
+
             builder.Property(c => c.Codigo)
                 .IsRequired()
-                .HasColumnType("Vouchers");
+                .HasColumnType("varchar(100)");
 
-            builder.ToTable("Voucher");
-
+            builder.ToTable("Vouchers");
         }
     }
 }

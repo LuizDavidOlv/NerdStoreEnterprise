@@ -283,6 +283,8 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Com
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
@@ -309,11 +311,13 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Com
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
@@ -386,7 +390,4 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Com
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\obj\Debug\netcoreapp3.1\NSE.BFF.Compras.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.Polly.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\api gateway\NSE.BFF.Compras\bin\Debug\netcoreapp3.1\NetDevPack.dll

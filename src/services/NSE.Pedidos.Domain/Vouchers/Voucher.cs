@@ -1,21 +1,30 @@
-﻿
-using NSE.Core.DomainObjects;
+﻿using NSE.Core.DomainObjects;
+using NSE.Pedidos.Domain.Vouchers.Specs;
 using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace NSE.Pedido.Domain
+namespace NSE.Pedidos.Domain.Vouchers
 {
     public class Voucher : Entity, IAggregateRoot
     {
-        public string Codigo { get; set; }
-        public decimal? Percentual { get; set; }
-        public decimal? ValorDesconto { get; set; }
-        public int Quantidade { get; set; }
-        public TipoDescontoVoucher TipoDesconto { get; set; }
-        public DateTime DataCriacao { get; set; }
-        public DateTime? DataUtilizacao { get; set; }
-        public DateTime DataValidade { get; set; }
-        public bool Ativo { get; set; }
-        public bool Utilizado { get; set; }
+        public string Codigo { get; private set; }
+        public decimal? Percentual { get; private set; }
+        public decimal? ValorDesconto { get; private set; }
+        public int Quantidade { get; private set; }
+        public TipoDescontoVoucher TipoDesconto { get; private set; }
+        public DateTime DataCriacao { get; private set; }
+        public DateTime? DataUtilizacao { get; private set; }
+        public DateTime DataValidade { get; private set; }
+        public bool Ativo { get; private set; }
+        public bool Utilizado { get; private set; }
 
+        public bool EstaValidoParaUtilizacao()
+        {
+            return new VoucherAtivoSpecification()
+                .And(new VoucherDataSpecification())
+                .And(new VoucherQuantidadeSpecification())
+                .IsSatisfiedBy(this);
+        }
     }
 }

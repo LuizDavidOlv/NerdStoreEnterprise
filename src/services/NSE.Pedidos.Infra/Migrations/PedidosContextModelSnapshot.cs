@@ -20,7 +20,7 @@ namespace NSE.Pedidos.Infra.Migrations
                 .HasAnnotation("Relational:Sequence:.MinhaSequencia", "'MinhaSequencia', '', '1000', '1', '', '', 'Int32', 'False'")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("NSE.Pedido.Domain.Voucher", b =>
+            modelBuilder.Entity("NSE.Pedidos.Domain.Vouchers.Voucher", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -31,7 +31,7 @@ namespace NSE.Pedidos.Infra.Migrations
 
                     b.Property<string>("Codigo")
                         .IsRequired()
-                        .HasColumnType("Vouchers");
+                        .HasColumnType("varchar(100)");
 
                     b.Property<DateTime>("DataCriacao")
                         .HasColumnType("datetime2");
@@ -59,7 +59,7 @@ namespace NSE.Pedidos.Infra.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Voucher");
+                    b.ToTable("Vouchers");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "zTK1MwncyhbpgIQSiZ6ZaVQZYfZg/EWvhwtDPs1yKblNe85fL4vJSnZINYiWOJiyH30qFcBLrQ+Foo3mPZebaQ==",
+  "dgSpecHash": "C2M0IUeGUSXBtY4v8iAsb/yu39Q7lv7qaeVwLYta2ehWNZhznNDBXxrMyp8+4+4W+OBauzJpzWW8B9ISwKxIiQ==",
   "success": true,
   "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\building blocks\\NSE.Core\\NSE.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.4\\microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512",
-    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512"
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.4\\microsoft.extensions.primitives.3.1.4.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512"
   ],
   "logs": []
 }
