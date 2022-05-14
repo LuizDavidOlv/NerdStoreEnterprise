@@ -7,6 +7,7 @@ using NSE.Core.Data;
 using NSE.Core.DomainObjects;
 using NSE.Core.Mediator;
 using NSE.Core.Messages;
+using NSE.Pedidos.Domain.Pedidos;
 using NSE.Pedidos.Domain.Vouchers;
 
 namespace NSE.Pedidos.Infra.Data
@@ -22,8 +23,8 @@ namespace NSE.Pedidos.Infra.Data
         }
 
 
-        //public DbSet<Pedido> Pedidos { get; set; }
-       // public DbSet<PedidoItem> PedidoItems { get; set; }
+        public DbSet<Pedido> Pedidos { get; set; }
+        public DbSet<PedidoItem> PedidoItems { get; set; }
         public DbSet<Voucher> Vouchers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
