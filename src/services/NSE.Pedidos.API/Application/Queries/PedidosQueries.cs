@@ -14,7 +14,7 @@ namespace NSE.Pedidos.API.Application.Queries
         Task<IEnumerable<PedidoDTO>> ObterListaPorClienteId(Guid clienteId);
     }
 
-    public async class PedidosQueries : IPedidosQueries
+    public class PedidosQueries : IPedidosQueries
     {
         private readonly IPedidoRepository _pedidoRepository;
 
