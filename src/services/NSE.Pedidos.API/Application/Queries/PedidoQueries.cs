@@ -8,17 +8,17 @@ using System.Threading.Tasks;
 
 namespace NSE.Pedidos.API.Application.Queries
 {
-    public interface IPedidosQueries
+    public interface IPedidoQueries
     {
-        Task<PedidoDTO> ObterUltimoiPedido(Guid clienteId);
+        Task<PedidoDTO> ObterUltimoPedido(Guid clienteId);
         Task<IEnumerable<PedidoDTO>> ObterListaPorClienteId(Guid clienteId);
     }
 
-    public class PedidosQueries : IPedidosQueries
+    public class PedidoQueries : IPedidoQueries
     {
         private readonly IPedidoRepository _pedidoRepository;
 
-        public PedidosQueries(IPedidoRepository pedidoRepository)
+        public PedidoQueries(IPedidoRepository pedidoRepository)
         {
             _pedidoRepository = pedidoRepository;
         }
@@ -29,7 +29,7 @@ namespace NSE.Pedidos.API.Application.Queries
             return pedidos.Select(PedidoDTO.ParaPedidoDTO);
         }
 
-        public async Task<PedidoDTO> ObterUltimoiPedido(Guid clienteId)
+        public async Task<PedidoDTO> ObterUltimoPedido(Guid clienteId)
         {
             const string sql = @"SELECT
                                 P.ID AS 'ProdutoId', P.CODIGO, P.VOUCHERUTILIZADO, P.DESCONTO, P.VALORTOTAL,P.PEDIDOSTATUS,
