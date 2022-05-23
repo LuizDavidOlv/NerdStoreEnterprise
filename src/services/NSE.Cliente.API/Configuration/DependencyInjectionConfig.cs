@@ -9,10 +9,6 @@ using NSE.Cliente.API.Data.Repository;
 using NSE.Cliente.API.Models;
 using NSE.Core.Mediator;
 using NSE.WebAPI.Core.Usuario;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NSE.Cliente.API.Configuration
 {
@@ -27,6 +23,7 @@ namespace NSE.Cliente.API.Configuration
 
             services.AddScoped<IRequestHandler<RegistrarClienteCommand, ValidationResult>, ClienteCommandHandler>();
             services.AddScoped<IRequestHandler<AdicionarEnderecoCommand, ValidationResult>, ClienteCommandHandler>();
+
 
             services.AddScoped<INotificationHandler<ClienteRegistradoEvent>, ClienteEventHandler>();
 

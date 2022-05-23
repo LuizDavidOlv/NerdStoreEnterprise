@@ -267,6 +267,7 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NetDevPack.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
@@ -304,4 +305,3 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\obj\Debug\netcoreapp3.1\NSE.Catalogo.API.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NetDevPack.dll

@@ -841,6 +841,7 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.Identidade.API.exe
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\libman.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.StaticWebAssets.xml
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.exe
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NSE.WebApp.MVC.deps.json
@@ -1160,6 +1161,7 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NetDevPack.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
@@ -1237,6 +1239,13 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Login.cshtml.g.cs
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Identidade\Registro.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\ConfirmacaoPedido.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\EnderecoEntrega.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\MeusPedidos.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Pagamento.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_Endereco.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_NovoEndereco.cshtml.g.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_ResumoFinanceiro.cshtml.g.cs
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Carrinho\Default.cshtml.g.cs
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\Summary\Default.cshtml.g.cs
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
@@ -1252,11 +1261,3 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\NSE.WebApp.MVC.genruntimeconfig.cache
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\bin\Debug\netcoreapp3.1\NetDevPack.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\ConfirmacaoPedido.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_Endereco.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_NovoEndereco.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\_ResumoFinanceiro.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\EnderecoEntrega.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\MeusPedidos.cshtml.g.cs
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\web\NSE.WebApp.MVC\obj\Debug\netcoreapp3.1\Razor\Views\Pedido\Pagamento.cshtml.g.cs

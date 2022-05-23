@@ -1,8 +1,6 @@
-﻿using NetDevPack.Specification;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq.Expressions;
-using System.Text;
+using NetDevPack.Specification;
 
 namespace NSE.Pedidos.Domain.Vouchers.Specs
 {

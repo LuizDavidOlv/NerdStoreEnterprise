@@ -14,11 +14,14 @@
           "NSE.Pedidos.Domain.dll": {}
         }
       },
-      "FluentValidation/10.3.6": {
+      "FluentValidation/8.6.2": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "10.3.6.0"
+          "lib/netstandard2.0/FluentValidation.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.2.0"
           }
         }
       },
@@ -41,6 +44,14 @@
           }
         }
       },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.1.4.0",
+            "fileVersion": "3.100.420.21409"
+          }
+        }
+      },
       "Microsoft.Extensions.Primitives/3.1.4": {
         "runtime": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {
@@ -51,7 +62,7 @@
       },
       "NetDevPack/1.1.0": {
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "8.6.2",
           "MediatR": "8.0.1"
         },
         "runtime": {
@@ -61,10 +72,12 @@
           }
         }
       },
+      "System.ComponentModel.Annotations/4.4.1": {},
       "NSE.Core/1.0.0": {
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "8.6.2",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
           "NetDevPack": "1.1.0",
           "MediatR": "8.0.1"
         },
@@ -80,12 +93,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/10.3.6": {
+    "FluentValidation/8.6.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
-      "path": "fluentvalidation/10.3.6",
-      "hashPath": "fluentvalidation.10.3.6.nupkg.sha512"
+      "sha512": "sha512-N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
+      "path": "fluentvalidation/8.6.2",
+      "hashPath": "fluentvalidation.8.6.2.nupkg.sha512"
     },
     "MediatR/8.0.1": {
       "type": "package",
@@ -101,6 +114,13 @@
       "path": "microsoft.extensions.configuration.abstractions/3.1.4",
       "hashPath": "microsoft.extensions.configuration.abstractions.3.1.4.nupkg.sha512"
     },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AceHamXNKDMDwIoZqEoApLp8s3935wSC3VXrPaRWa0wWOaEcYdDlo1nWQ1zLiezoDmpJzV7FqDm53E0Ty/hEMg==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.4",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.1.4.nupkg.sha512"
+    },
     "Microsoft.Extensions.Primitives/3.1.4": {
       "type": "package",
       "serviceable": true,
@@ -114,6 +134,13 @@
       "sha512": "sha512-pEeSxtDUKHC1mNwFHikn2WuArzgKYIQ/MLto5xrEKAZGc5MBUuTmFHeRtlwbm2dyU5RvT0Xe/chwRJt0ezN7bg==",
       "path": "netdevpack/1.1.0",
       "hashPath": "netdevpack.1.1.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.4.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ToiYqSCioqhtspq2O/jYKtyTC/T0uwWHBTYlzCi6PRbSSHArN1IaRWeHffDamvms5sye5FDUWCfNZgubQpNRsA==",
+      "path": "system.componentmodel.annotations/4.4.1",
+      "hashPath": "system.componentmodel.annotations.4.4.1.nupkg.sha512"
     },
     "NSE.Core/1.0.0": {
       "type": "project",

@@ -1617,6 +1617,7 @@
         "dependencies": {
           "FluentValidation": "10.3.6",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
           "NetDevPack": "1.1.0",
           "MediatR": "8.0.1"
         },

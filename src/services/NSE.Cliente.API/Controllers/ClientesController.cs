@@ -1,21 +1,15 @@
-﻿
-
-using FluentValidation.Results;
+﻿using System;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using NSE.Cliente.API.Application.Commands;
 using NSE.Cliente.API.Models;
+using NSE.Cliente.API.Application.Commands;
 using NSE.Core.Mediator;
 using NSE.WebApi.Core.Controllers;
 using NSE.WebAPI.Core.Usuario;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace NSE.Cliente.API.Controllers
 {
-    [ApiController]
     public class ClientesController : MainController
     {
         private readonly IClienteRepository _clienteRepository;

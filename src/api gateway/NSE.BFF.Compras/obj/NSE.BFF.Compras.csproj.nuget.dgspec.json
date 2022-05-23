@@ -217,9 +217,13 @@
           "dependencies": {
             "FluentValidation": {
               "target": "Package",
-              "version": "[10.3.6, )"
+              "version": "[8.6.2, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[3.1.4, )"
             },

@@ -2,13 +2,16 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FluentValidation/10.3.6": {
+      "FluentValidation/8.6.2": {
         "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.4.1"
+        },
         "compile": {
-          "lib/netstandard2.1/FluentValidation.dll": {}
+          "lib/netstandard2.0/FluentValidation.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/FluentValidation.dll": {}
+          "lib/netstandard2.0/FluentValidation.dll": {}
         }
       },
       "MediatR/8.0.1": {
@@ -1316,8 +1319,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "8.6.2",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
           "NetDevPack": "1.1.0",
           "mediatr": "8.0.1"
         },
@@ -1344,25 +1348,23 @@
     }
   },
   "libraries": {
-    "FluentValidation/10.3.6": {
-      "sha512": "iMd370ZDx6ydm8t7bIFdRbSKX0e42lpvCtifUSbTSXOk5iKjmgl7HU0PXBhIWQAyIRi3gCwfMI9luj8H6K+byw==",
+    "FluentValidation/8.6.2": {
+      "sha512": "N2vz+f6pAX9AI19hu83U2LJjjc/ETzWGlICVanu3DIG76QhzEu3PR/CQSFBX69PRuBTivrW4jhBzeV7dXIfqyw==",
       "type": "package",
-      "path": "fluentvalidation/10.3.6",
+      "path": "fluentvalidation/8.6.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "fluent-validation-icon.png",
-        "fluentvalidation.10.3.6.nupkg.sha512",
+        "fluentvalidation.8.6.2.nupkg.sha512",
         "fluentvalidation.nuspec",
-        "lib/net5.0/FluentValidation.dll",
-        "lib/net5.0/FluentValidation.xml",
-        "lib/net6.0/FluentValidation.dll",
-        "lib/net6.0/FluentValidation.xml",
+        "lib/net45/FluentValidation.dll",
+        "lib/net45/FluentValidation.xml",
+        "lib/netstandard1.1/FluentValidation.dll",
+        "lib/netstandard1.1/FluentValidation.xml",
+        "lib/netstandard1.6/FluentValidation.dll",
+        "lib/netstandard1.6/FluentValidation.xml",
         "lib/netstandard2.0/FluentValidation.dll",
-        "lib/netstandard2.0/FluentValidation.xml",
-        "lib/netstandard2.1/FluentValidation.dll",
-        "lib/netstandard2.1/FluentValidation.xml"
+        "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
     "MediatR/8.0.1": {

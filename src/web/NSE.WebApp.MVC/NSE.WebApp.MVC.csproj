@@ -25,4 +25,8 @@
     <ProjectReference Include="..\..\services\NSE.Identidade.API\NSE.Identidade.API.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\fonts\" />
+  </ItemGroup>
+
 </Project>

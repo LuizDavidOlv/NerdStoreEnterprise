@@ -1919,8 +1919,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "FluentValidation": "10.3.6",
+          "FluentValidation": "8.6.2",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.4",
           "NetDevPack": "1.1.0",
           "mediatr": "8.0.1"
         },
