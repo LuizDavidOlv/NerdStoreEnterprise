@@ -267,13 +267,16 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\NetDevPack.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Catalogo.API\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll

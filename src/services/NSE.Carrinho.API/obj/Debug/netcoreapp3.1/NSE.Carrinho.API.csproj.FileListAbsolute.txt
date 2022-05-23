@@ -154,6 +154,7 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.runtimeconfig.dev.json
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Carrinho.API.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\EasyNetQ.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\FluentValidation.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\MediatR.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
@@ -183,9 +184,11 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NetDevPack.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Polly.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Polly.Extensions.Http.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -204,8 +207,10 @@ C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.A
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Core.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.dll
-C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.WebAPI.Core.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.MessageBus.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.WebApi.Core.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\bin\Debug\netcoreapp3.1\NSE.Core.pdb
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.csproj.AssemblyReference.cache
 C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Carrinho.API\obj\Debug\netcoreapp3.1\NSE.Carrinho.API.GeneratedMSBuildEditorConfig.editorconfig

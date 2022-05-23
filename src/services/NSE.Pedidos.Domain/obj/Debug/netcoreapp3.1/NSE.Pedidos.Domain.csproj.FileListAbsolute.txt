@@ -1,0 +1,13 @@
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.deps.json
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Core.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\bin\Debug\netcoreapp3.1\NSE.Core.pdb
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.AssemblyReference.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfoInputs.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.AssemblyInfo.cs
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CoreCompileInputs.cache
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.csproj.CopyComplete
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.dll
+C:\Siemens\Git\Personal Projects\NerdStoreEnterprise\src\services\NSE.Pedidos.Domain\obj\Debug\netcoreapp3.1\NSE.Pedidos.Domain.pdb
