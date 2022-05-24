@@ -6,7 +6,7 @@ namespace NSE.Pagamento.NerdsPag
 {
     public enum TransactionStatus
     {
-        Auhtorized =1,
+        Authorized =1,
         Paid,
         Refused,
         ChargeBack,

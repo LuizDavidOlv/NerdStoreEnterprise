@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -7,6 +8,13 @@ namespace NSE.Pagamento.NerdsPag
 {
     public class Transaction
     {
+        private readonly NerdsPagService NerdsPagService;
+
+        public Transaction(NerdsPagService nerdsPagService)
+        {
+            NerdsPagService = nerdsPagService;
+        }
+
         protected Transaction() { }
         protected string Endpoint { get; set; }
         public int SubscriptionId { get; set; }
@@ -46,28 +54,85 @@ namespace NSE.Pagamento.NerdsPag
         public bool? ShouldCapture { get; set; }
         public bool? Async { get; set; }
         public string LocalTime { get; set; }
-        public DateTime TransactionoDate { get; set; }
+        public DateTime TransactionDate { get; set; }
 
 
         public Task<Transaction> AuthorizeCardTransaction()
         {
 
-            return null;
+            var success = new Random().Next(2) == 0;
+            Transaction transaction;
+
+            if (success)
+            {
+                transaction = new Transaction
+                {
+                    AuthorizationCode = GetGenericCode(),
+                    CardBrand = "MasterCard",
+                    TransactionDate = DateTime.Now,
+                    Cost = Amount * (decimal)0.03,
+                    Amount = Amount,
+                    Status = TransactionStatus.Authorized,
+                    Tid = GetGenericCode(),
+                    Nsu = GetGenericCode()
+                };
+
+                return Task.FromResult(transaction);
+            }
+
+            transaction = new Transaction
+            {
+                AuthorizationCode = "",
+                CardBrand = "",
+                TransactionDate = DateTime.Now,
+                Cost = 0,
+                Amount = 0,
+                Status = TransactionStatus.Refused,
+                Tid = "",
+                Nsu = ""
+            };
+
+            return Task.FromResult(transaction);
         }
 
-        public Task<Transaction> CaputureCardTransaction()
+        public Task<Transaction> CaptureCardTransaction()
         {
-            return null;
+            var transaction = new Transaction
+            {
+                AuthorizationCode = GetGenericCode(),
+                CardBrand = CardBrand,
+                TransactionDate = DateTime.Now,
+                Cost = 0,
+                Amount = Amount,
+                Status = TransactionStatus.Paid,
+                Tid = Tid,
+                Nsu = Nsu
+            };
+
+            return Task.FromResult(transaction);
         }
 
         public Task<Transaction> CancelAuthorization()
         {
-            return null;
+            var transaction = new Transaction
+            {
+                AuthorizationCode = "",
+                CardBrand = CardBrand,
+                TransactionDate = DateTime.Now,
+                Cost = 0,
+                Amount = Amount,
+                Status = TransactionStatus.Cancelled,
+                Tid = Tid,
+                Nsu = Nsu
+            };
+
+            return Task.FromResult(transaction);
         }
 
         private string GetGenericCode()
         {
-            return null;
+            return new string(Enumerable.Repeat("ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789", 10)
+                .Select(s => s[new Random().Next(s.Length)]).ToArray());
         }
 
 
