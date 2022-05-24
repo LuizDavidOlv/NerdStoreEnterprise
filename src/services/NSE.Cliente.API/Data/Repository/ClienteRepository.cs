@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using NSE.Cliente.API.Models;
 using NSE.Core.Data;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -24,9 +25,19 @@ namespace NSE.Cliente.API.Data.Repository
             _context.Clientes.Add(cliente);
         }
 
+        public void AdicionarEndereco(Endereco endereco)
+        {
+            _context.Enderecos.Add(endereco);
+        }
+
         public void Dispose()
         {
             _context.Dispose();
+        }
+
+        public async Task<Endereco> ObterEnderecoPorId(Guid id)
+        {
+            return await _context.Enderecos.FirstOrDefaultAsync(e => e.ClienteId == id);
         }
 
         public async Task<Models.Cliente> ObterPorCpf(string cpf)
