@@ -55,6 +55,22 @@ namespace NSE.Pedidos.API.Application.Commands
                     .GreaterThan(0)
                     .WithMessage("Valor do pedido inválido");
 
+                RuleFor(c => c.NumeroCartao)
+                   .CreditCard()
+                   .WithMessage("Número de cartão inválido");
+
+                RuleFor(c => c.NomeCartao)
+                    .NotNull()
+                    .WithMessage("Nome do portador do cartão requerido.");
+
+                RuleFor(c => c.CvvCartao.Length)
+                    .GreaterThan(2)
+                    .LessThan(5)
+                    .WithMessage("O CVV do cartão precisa ter 3 ou 4 números.");
+
+                RuleFor(c => c.ExpiracaoCartao)
+                    .NotNull()
+                    .WithMessage("Data expiração do cartão requerida.");
             }
         }
     }

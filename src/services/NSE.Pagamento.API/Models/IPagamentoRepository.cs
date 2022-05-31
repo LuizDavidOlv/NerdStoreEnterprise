@@ -10,6 +10,6 @@ namespace NSE.Pagamento.API.Models
         void AdicionarPagamento(Pagamento pagamento);
         void AdicionarTransacao(Transacao transacao);
         Task<Pagamento> ObterPagamentoPorPedidoId(Guid pedidoId);
-        Task<IEnumerable<Transacao>> ObterTransacoesPorId(Guid pedidoId);
+        Task<IEnumerable<Transacao>> ObterTransacoesPorPedidoId(Guid pedidoId);
     }
 }

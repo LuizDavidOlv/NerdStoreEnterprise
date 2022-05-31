@@ -34,7 +34,7 @@ namespace NSE.Pagamento.API.Data.Respository
             return await _context.Pagamentos.AsNoTracking().FirstOrDefaultAsync(p => p.PedidoId == pedidoId);
         }
 
-        public async Task<IEnumerable<Transacao>> ObterTransacoesPorId(Guid pedidoId)
+        public async Task<IEnumerable<Transacao>> ObterTransacoesPorPedidoId(Guid pedidoId)
         {
             return await _context.Transacoes.AsNoTracking().Where(t => t.Pagamento.PedidoId == pedidoId).ToListAsync();
         }

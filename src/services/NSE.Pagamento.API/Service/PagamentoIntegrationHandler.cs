@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NSE.Core.DomainObjects;
 using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
 using NSE.Pagamento.API.Models;
@@ -52,16 +53,38 @@ namespace NSE.Pagamento.API.Service
             };
 
             var response = await pagamentoService.AutorizarPagamento(pagamento);
+
+            return response;
         }
 
         private async Task CancelarPagamento(PedidoCanceladoIntegrationEvent message)
         {
-            throw new System.NotImplementedException();
+            using (var scope = _serviceProvider.CreateScope())
+            {
+                var pagamentoService = scope.ServiceProvider.GetRequiredService<IPagamentoService>();
+                var response = await pagamentoService.CancelarPagamento(message.PedidoId);
+
+                if(!response.ValidationResult.IsValid)
+                {
+                    throw new CannotUnloadAppDomainException($"Falha ao cancelar pagamento do pedido{message.PedidoId}");
+                }
+            }
         }
 
         private async Task CapturarPagamento(PedidoBaixadoEstoqueIntegrationEvent message)
         {
-            throw new System.NotImplementedException();
+            using (var scope = _serviceProvider.CreateScope())
+            {
+                var pagamentoService = scope.ServiceProvider.GetRequiredService<IPagamentoService>();
+                var response = await pagamentoService.CapturarPagamento(message.PedidoId);
+
+                if(!response.ValidationResult.IsValid)
+                {
+                    throw new DomainException($"Falha ao capturar pagamento do pedido {message.PedidoId}");
+                }
+
+                await _bus.PublishAsync(new PedidoPagoIntegrationEvent(message.ClienteId, message.PedidoId));
+            }
         }
     }
 }
