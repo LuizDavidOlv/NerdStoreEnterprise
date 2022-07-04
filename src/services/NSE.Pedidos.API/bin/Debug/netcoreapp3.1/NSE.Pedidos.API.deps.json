@@ -33,7 +33,6 @@
         "dependencies": {
           "MediatR.Extensions.Microsoft.DependencyInjection": "8.0.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.4",
-          "Microsoft.EntityFrameworkCore.Tools": "3.1.4",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.10.8",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.2",
           "NSE.Core": "1.0.0",
@@ -360,20 +359,20 @@
           "lib/netstandard2.1/FluentValidation.dll": {}
         }
       },
-      "MediatR/8.0.1": {
+      "MediatR/9.0.0": {
         "runtime": {
-          "lib/netstandard2.0/MediatR.dll": {
-            "assemblyVersion": "8.0.1.0",
-            "fileVersion": "8.0.1.0"
+          "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
           }
         },
         "compile": {
-          "lib/netstandard2.0/MediatR.dll": {}
+          "lib/netstandard2.1/MediatR.dll": {}
         }
       },
       "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
         "dependencies": {
-          "MediatR": "8.0.1",
+          "MediatR": "9.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
         },
         "runtime": {
@@ -806,11 +805,6 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.4": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.4"
-        }
-      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Caching.Abstractions/3.1.4": {
         "dependencies": {
@@ -1204,15 +1198,15 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
-      "NetDevPack/1.1.0": {
+      "NetDevPack/1.1.1": {
         "dependencies": {
           "FluentValidation": "10.3.6",
-          "MediatR": "8.0.1"
+          "MediatR": "9.0.0"
         },
         "runtime": {
           "lib/netstandard2.0/NetDevPack.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+            "assemblyVersion": "1.1.1.0",
+            "fileVersion": "1.1.1.0"
           }
         },
         "compile": {
@@ -2400,8 +2394,8 @@
           "FluentValidation": "10.3.6",
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "NetDevPack": "1.1.0",
-          "MediatR": "8.0.1"
+          "NetDevPack": "1.1.1",
+          "MediatR": "9.0.0"
         },
         "runtime": {
           "NSE.Core.dll": {}
@@ -2459,10 +2453,10 @@
           "Polly.Extensions.Http": "3.0.0"
         },
         "runtime": {
-          "NSE.WebAPI.Core.dll": {}
+          "NSE.WebApi.Core.dll": {}
         },
         "compile": {
-          "NSE.WebAPI.Core.dll": {}
+          "NSE.WebApi.Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
@@ -4108,12 +4102,12 @@
       "path": "fluentvalidation/10.3.6",
       "hashPath": "fluentvalidation.10.3.6.nupkg.sha512"
     },
-    "MediatR/8.0.1": {
+    "MediatR/9.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-nqtv05FHNNNLmEv4QN9pRtmSLa0bnDPciOjLKpA/k5FZIVS72vPyY3/1lHQ9V/dcQSMA5ZLig62SyRk2cSKNBA==",
-      "path": "mediatr/8.0.1",
-      "hashPath": "mediatr.8.0.1.nupkg.sha512"
+      "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
+      "path": "mediatr/9.0.0",
+      "hashPath": "mediatr.9.0.0.nupkg.sha512"
     },
     "MediatR.Extensions.Microsoft.DependencyInjection/8.0.0": {
       "type": "package",
@@ -4268,13 +4262,6 @@
       "sha512": "sha512-PV37RQnLxwUFJBDggmtgfxbPsxZ7Iv/fyxWEP9a8xV/S8WZ+/Zo5jpfaQMcnVrHljuD9R3YJy+YFbFuicq0UjQ==",
       "path": "microsoft.entityframeworkcore.sqlserver/3.1.4",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.3.1.4.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.Tools/3.1.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-aJ1TGflH7aFOh+oPppIzx7NoC8QXw6lY4YH8PAa67tTlh40GJvWbhkNVqDCyuzrvUl9U1I3i4so/N6TtCK11uw==",
-      "path": "microsoft.entityframeworkcore.tools/3.1.4",
-      "hashPath": "microsoft.entityframeworkcore.tools.3.1.4.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
@@ -4500,12 +4487,12 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
-    "NetDevPack/1.1.0": {
+    "NetDevPack/1.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pEeSxtDUKHC1mNwFHikn2WuArzgKYIQ/MLto5xrEKAZGc5MBUuTmFHeRtlwbm2dyU5RvT0Xe/chwRJt0ezN7bg==",
-      "path": "netdevpack/1.1.0",
-      "hashPath": "netdevpack.1.1.0.nupkg.sha512"
+      "sha512": "sha512-lUdxhBtdn1n4HCYACuQgDveQI4TuauSCFuUkVOe5UpYqVHtiYORhw0hJCBlfA2GMsraq7OU9l9NRY0a0GlCmNQ==",
+      "path": "netdevpack/1.1.1",
+      "hashPath": "netdevpack.1.1.1.nupkg.sha512"
     },
     "NETStandard.Library/1.6.1": {
       "type": "package",

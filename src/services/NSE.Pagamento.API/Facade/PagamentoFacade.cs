@@ -72,7 +72,7 @@ namespace NSE.Pagamento.API.Facade
                 CodigoAutorizacao = transaction.AuthorizationCode,
                 CustoTransacao = transaction.Cost,
                 DataTransacao = transaction.TransactionDate,
-                NSU = transaction.Nsu,
+                NSE = transaction.Nsu,
                 TID = transaction.Tid
             };
         }
@@ -86,7 +86,7 @@ namespace NSE.Pagamento.API.Facade
                 CardBrand = transacao.BandeiraCartao,
                 AuthorizationCode = transacao.CodigoAutorizacao,
                 Cost = transacao.CustoTransacao,
-                Nsu = transacao.NSU,
+                Nsu = transacao.NSE,
                 Tid = transacao.TID
             };
         }

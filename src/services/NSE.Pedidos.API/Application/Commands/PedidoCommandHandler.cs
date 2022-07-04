@@ -1,17 +1,17 @@
-﻿using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
+﻿
 using FluentValidation.Results;
 using MediatR;
 using NSE.Core.Messages;
+using NSE.Core.Messages.Integration;
+using NSE.MessageBus;
 using NSE.Pedidos.API.Application.DTO;
 using NSE.Pedidos.API.Application.Events;
-using NSE.Pedidos.Domain;
 using NSE.Pedidos.Domain.Pedidos;
-using NSE.Pedidos.Domain.Vouchers.Specs;
 using NSE.Pedidos.Domain.Vouchers;
-using NSE.MessageBus;
-using NSE.Core.Messages.Integration;
+using NSE.Pedidos.Domain.Vouchers.Specs;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace NSE.Pedidos.API.Application.Commands
 {
@@ -37,10 +37,19 @@ namespace NSE.Pedidos.API.Application.Commands
             }
 
             var pedido = MapearPedido(message);
-            if(!await AplicarVoucher(message, pedido) || !ValidarPedido(pedido) || !await ProcessarPagamento(pedido,message))
+            if (!await AplicarVoucher(message, pedido) || !ValidarPedido(pedido) || !await ProcessarPagamento(pedido, message))
             {
                 return ValidationResult;
             }
+
+            if (!await AplicarVoucher(message, pedido)) return ValidationResult;
+
+            // Validar pedido
+            if (!ValidarPedido(pedido)) return ValidationResult;
+
+            // Processar pagamento
+            if (!await ProcessarPagamento(pedido, message)) return ValidationResult;
+
 
             pedido.AutorizarPedido();
             pedido.AdicionarEventos(new PedidoRealizadoEvent(pedido.Id, pedido.ClienteId));
@@ -78,24 +87,30 @@ namespace NSE.Pedidos.API.Application.Commands
             }
 
             var voucher = await _voucherRepository.ObterVoucherPorCodigo(message.VoucherCodigo);
+
             if (voucher == null)
             {
                 AdicionarErro("O voucher informado não existe!");
                 return false;
             }
 
-            var voucherValidation = new VoucherValidation().Validate(voucher);
+            var voucherValidation = new VoucherValidation().Validate(voucher);  //Por alguma razão não consigo validar o voucher
+
+
             if (!voucherValidation.IsValid)
             {
                 voucherValidation.Errors.ToList().ForEach(m => AdicionarErro(m.ErrorMessage));
                 return false;
             }
 
+            pedido.AtribuirVoucher(voucher);
+            voucher.DebitarQuantidade();
+
             _voucherRepository.Atualizar(voucher);
 
             return true;
-
         }
+
         private bool ValidarPedido(Pedido pedido)
         {
             var pedidoValorOriginal = pedido.ValorTotal;
@@ -133,12 +148,12 @@ namespace NSE.Pedidos.API.Application.Commands
 
             var result = await _bus.RequestAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(pedidoIniciado);
 
-            if(result.ValidationResult.IsValid)
+            if (result.ValidationResult.IsValid)
             {
                 return true;
             }
 
-            foreach(var erro in result.ValidationResult.Errors)
+            foreach (var erro in result.ValidationResult.Errors)
             {
                 AdicionarErro(erro.ErrorMessage);
             }

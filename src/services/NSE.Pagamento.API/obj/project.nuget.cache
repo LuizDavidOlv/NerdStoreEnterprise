@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ezAyhnMerdnxpUhjVKfNFb1W8mwzOlcaCM3Aw5fdkTCKrrkZq/3poplYIS6t03ks5QxKk4olYqgSactRnR3HbQ==",
+  "dgSpecHash": "51AhhhCpOxYG2WT9KG3oQYknrT7y6tcnSdvoHx7faSRIeqzMpv/aS+DYLO5QMr83G18D63/efkcWwocoH8HYUw==",
   "success": true,
   "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Pagamento.API\\NSE.Pagamento.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\easynetq\\5.1.1\\easynetq.5.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
-    "C:\\Users\\Z004JCVB\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.3\\microsoft.aspnetcore.authentication.jwtbearer.3.1.3.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
@@ -60,7 +60,7 @@
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\3.1.3\\microsoft.visualstudio.web.codegenerators.mvc.3.1.3.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
-    "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.1\\netdevpack.1.1.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",

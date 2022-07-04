@@ -10,3 +10,4 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 .vs/NerdStoreEnterprise/v17/suoD051.tmp
 .vs/NerdStoreEnterprise/v17/suo53C7.tmp
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
+*.tmp

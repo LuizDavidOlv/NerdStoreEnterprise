@@ -1,11 +1,12 @@
-﻿using FluentValidation.Results;
+﻿using System;
+using System.Linq;
+using System.Threading.Tasks;
+using FluentValidation.Results;
 using NSE.Core.DomainObjects;
 using NSE.Core.Messages.Integration;
 using NSE.Pagamento.API.Facade;
 using NSE.Pagamento.API.Models;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace NSE.Pagamento.API.Service
 {
@@ -25,7 +26,7 @@ namespace NSE.Pagamento.API.Service
             var transacao = await _pagamentoFacade.AutorizarPagamento(pagamento);
             var validationResult = new ValidationResult();
 
-            if(transacao.Status != StatusTransacao.Autorizado)
+            if (transacao.Status != StatusTransacao.Autorizado)
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", "Pagamento recusado, entre em contato com a sua operadora de cartão."));
                 return new ResponseMessage(validationResult);
@@ -34,12 +35,13 @@ namespace NSE.Pagamento.API.Service
             pagamento.AdicionarTransacao(transacao);
             _pagamentoRepository.AdicionarPagamento(pagamento);
 
-            if(!await _pagamentoRepository.UnitOfWork.Commit())
+            if (!await _pagamentoRepository.UnitOfWork.Commit())
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", "Houve um erro ao realizar o pagamento."));
                 await CancelarPagamento(pagamento.PedidoId);
                 return new ResponseMessage(validationResult);
             }
+
             return new ResponseMessage(validationResult);
         }
 
@@ -49,14 +51,14 @@ namespace NSE.Pagamento.API.Service
             var transacaoAutorizada = transacoes?.FirstOrDefault(t => t.Status == StatusTransacao.Autorizado);
             var validationResult = new ValidationResult();
 
-            if(transacaoAutorizada == null)
+            if (transacaoAutorizada == null)
             {
                 throw new DomainException($"Transação não encontrada para o pedido {pedidoId}");
             }
 
             var transacao = await _pagamentoFacade.CapturarPagamento(transacaoAutorizada);
 
-            if(transacao.Status != StatusTransacao.Pago)
+            if (transacao.Status != StatusTransacao.Pago)
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", $"Não foi possível caputrar o pagamento do pedido {pedidoId}"));
 
@@ -66,7 +68,7 @@ namespace NSE.Pagamento.API.Service
             transacao.PagamentoId = transacaoAutorizada.PagamentoId;
             _pagamentoRepository.AdicionarTransacao(transacao);
 
-            if(!await _pagamentoRepository.UnitOfWork.Commit())
+            if (!await _pagamentoRepository.UnitOfWork.Commit())
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", $"Não foi possível persistir a caputra do pagmaneto do pedido {pedidoId}"));
 
@@ -82,14 +84,14 @@ namespace NSE.Pagamento.API.Service
             var transacaoAutorizada = transacoes?.FirstOrDefault(t => t.Status == StatusTransacao.Autorizado);
             var validationResult = new ValidationResult();
 
-            if(transacaoAutorizada == null)
+            if (transacaoAutorizada == null)
             {
                 throw new DomainException($"Transação não encontrada para o pedido {pedidoId}");
             }
 
             var transacao = await _pagamentoFacade.CancelarAutorizacao(transacaoAutorizada);
 
-            if( transacao.Status != StatusTransacao.Cancelado)
+            if (transacao.Status != StatusTransacao.Cancelado)
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", $"Não foi possível cancelar o pagamento do pedido {pedidoId}"));
 
@@ -99,7 +101,7 @@ namespace NSE.Pagamento.API.Service
             transacao.PagamentoId = transacaoAutorizada.PagamentoId;
             _pagamentoRepository.AdicionarTransacao(transacao);
 
-            if(!await _pagamentoRepository.UnitOfWork.Commit())
+            if (!await _pagamentoRepository.UnitOfWork.Commit())
             {
                 validationResult.Errors.Add(new ValidationFailure("Pagamento", $"Não foi possível persistir o cancelamento do pagamento do pedido{pedidoId}"));
 
@@ -109,6 +111,6 @@ namespace NSE.Pagamento.API.Service
             return new ResponseMessage(validationResult);
         }
 
-        
+
     }
 }

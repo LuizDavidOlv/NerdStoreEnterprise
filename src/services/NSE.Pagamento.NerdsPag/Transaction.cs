@@ -87,7 +87,7 @@ namespace NSE.Pagamento.NerdsPag
                 TransactionDate = DateTime.Now,
                 Cost = 0,
                 Amount = 0,
-                Status = TransactionStatus.Refused,
+                Status = TransactionStatus.Authorized, //Refused Lembrar de mudar depois dos testes
                 Tid = "",
                 Nsu = ""
             };
