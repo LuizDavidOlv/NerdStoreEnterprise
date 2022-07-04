@@ -1,6 +1,7 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "gysH/6TFHP+j2xYTIvKvWt20UdigOE90b8Qcn3AlO39hI+pBzb0fCnCshCbEKEMW3CQmui3d04hYSxoeuSVvCA==",
   "success": true,
   "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
@@ -8,6 +9,9 @@
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
 =======
   "dgSpecHash": "O9KY2+e2DozsvD32M7u6Bh83E44hAXB7vvY4KfFY1M3aAS9VyIII9y3v+W4bXMWgS5Pcp02zSC2ipKPiN7lplA==",
+=======
+  "dgSpecHash": "KA8NXlF6c8lprwH/cFlnKrhGPvVRZzs5xONtrY02QAriMMF3Ozt4fgQaVxcQmEc9y1D9v1ukgoY2iiTudBiktQ==",
+>>>>>>> Fixed Voucher Validation Problem
   "success": true,
   "projectFilePath": "C:\\Siemens\\Git\\Personal Projects\\NerdStoreEnterprise\\src\\services\\NSE.Catalogo.API\\NSE.Catalogo.API.csproj",
   "expectedPackageFiles": [
@@ -50,10 +54,14 @@
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.13\\microsoft.visualstudio.azure.containers.tools.targets.1.10.13.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.1\\netdevpack.1.1.1.nupkg.sha512",
 =======
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.0\\netdevpack.1.1.0.nupkg.sha512",
 >>>>>>> Configuring MessageBus na API de Carrinho e Catalago
+=======
+    "C:\\Users\\Z004JCVB\\.nuget\\packages\\netdevpack\\1.1.1\\netdevpack.1.1.1.nupkg.sha512",
+>>>>>>> Fixed Voucher Validation Problem
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\polly\\7.2.1\\polly.7.2.1.nupkg.sha512",
     "C:\\Users\\Z004JCVB\\.nuget\\packages\\polly.extensions.http\\3.0.0\\polly.extensions.http.3.0.0.nupkg.sha512",

@@ -12,15 +12,19 @@ namespace NSE.Pedidos.Infra.Data.Repository
     {
 
         private readonly PedidosContext _context;
+        public IUnitOfWork UnitOfWork => _context;
         public VoucherRepository(PedidosContext context)
         {
             _context = context;
         }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         public IUnitOfWork UnitOfWork => _context;
 >>>>>>> Configuring MessageBus na API de Carrinho e Catalago
+=======
+>>>>>>> Fixed Voucher Validation Problem
 
         public async Task<Voucher> ObterVoucherPorCodigo(string codigo)
         {

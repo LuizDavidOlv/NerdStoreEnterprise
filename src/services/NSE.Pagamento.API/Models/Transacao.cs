@@ -12,7 +12,7 @@ namespace NSE.Pagamento.API.Models
         public decimal CustoTransacao { get; set; }
         public StatusTransacao Status { get; set; }
         public string TID { get; set; }
-        public string NSU { get; set; }
+        public string NSE { get; set; }
         public Guid PagamentoId { get; set; }
 
         //EF relation

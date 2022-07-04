@@ -1505,12 +1505,17 @@
           "Microsoft.Extensions.Configuration.Abstractions": "3.1.4",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
 <<<<<<< HEAD
+<<<<<<< HEAD
           "NetDevPack": "1.1.1",
           "MediatR": "9.0.0"
 =======
           "NetDevPack": "1.1.0",
           "MediatR": "8.0.1"
 >>>>>>> Configuring MessageBus na API de Carrinho e Catalago
+=======
+          "NetDevPack": "1.1.1",
+          "MediatR": "9.0.0"
+>>>>>>> Fixed Voucher Validation Problem
         },
         "runtime": {
           "NSE.Core.dll": {}

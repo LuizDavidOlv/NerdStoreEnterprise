@@ -6,6 +6,7 @@ src/services/NSE.Pedido.API/obj/Container/ContainerName.cache
 .vs/NerdStoreEnterprise/DesignTimeBuild/.dtbcache.v2
 
 .vs/NerdStoreEnterprise/v16/suo8D92.tmp
+<<<<<<< HEAD
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 .vs/NerdStoreEnterprise/v17/suoD051.tmp
 .vs/NerdStoreEnterprise/v17/suo53C7.tmp
@@ -29,3 +30,10 @@ packages
 *.dll
 *.pdb
 *.cache
+=======
+src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
+.vs/NerdStoreEnterprise/v17/suoD051.tmp
+.vs/NerdStoreEnterprise/v17/suo53C7.tmp
+src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
+*.tmp
+>>>>>>> Fixed Voucher Validation Problem

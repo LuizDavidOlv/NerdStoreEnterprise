@@ -14,8 +14,11 @@
 **/*.jfm
 **/azds.yaml
 **/bin
+<<<<<<< HEAD
 **/obj
 **/packages
+=======
+>>>>>>> Fixed Voucher Validation Problem
 bin
 obj
 packages
