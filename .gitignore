@@ -14,3 +14,9 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 *.dll
 *.pdb
 *.cache
+**/bin
+**/obj
+**/packages
+bin
+obj
+packages
