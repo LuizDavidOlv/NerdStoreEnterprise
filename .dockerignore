@@ -14,6 +14,8 @@
 **/*.jfm
 **/azds.yaml
 **/bin
+**/obj
+**/packages
 bin
 obj
 packages
