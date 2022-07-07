@@ -15,10 +15,15 @@
 **/azds.yaml
 **/bin
 <<<<<<< HEAD
+<<<<<<< HEAD
 **/obj
 **/packages
 =======
 >>>>>>> Fixed Voucher Validation Problem
+=======
+**/obj
+**/packages
+>>>>>>> fix docker ignore
 bin
 obj
 packages
