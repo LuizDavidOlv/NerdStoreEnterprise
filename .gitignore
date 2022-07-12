@@ -26,3 +26,6 @@ packages
 *.v1
 *.v2
 *.cache
+*.dll
+*.pdb
+*.cache
