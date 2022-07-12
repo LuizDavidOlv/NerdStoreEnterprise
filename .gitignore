@@ -24,3 +24,5 @@ packages
 .vs/NerdStoreEnterprise/v17/.futdcache.v1
 *.v2
 *.v1
+*.v2
+*.cache
