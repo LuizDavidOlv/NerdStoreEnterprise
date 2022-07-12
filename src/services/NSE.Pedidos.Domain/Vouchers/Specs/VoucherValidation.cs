@@ -11,9 +11,9 @@ namespace NSE.Pedidos.Domain.Vouchers.Specs
             var qtdeSpec = new VoucherQuantidadeSpecification();
             var ativoSpec = new VoucherAtivoSpecification();
 
-            Add("ddataSpec", new Rule<Voucher>(dataSpec, "Este voucher está expirado"));
+            Add("dataSpec", new Rule<Voucher>(dataSpec, "Este voucher está expirado"));
             Add("qtdeSpec", new Rule<Voucher>(qtdeSpec, "Este voucher já foi utilizado"));
-            Add("ativoSspec", new Rule<Voucher>(ativoSpec, "Este voucher não está mais ativo"));
+            Add("ativoSpec", new Rule<Voucher>(ativoSpec, "Este voucher não está mais ativo"));
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace NSE.Pagamento.API.Controllers
+namespace NSE.Pedido.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]

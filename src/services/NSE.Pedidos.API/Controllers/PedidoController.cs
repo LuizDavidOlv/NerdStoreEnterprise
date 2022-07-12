@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NSE.Core.Mediator;
 using NSE.Pedidos.API.Application.Commands;
 using NSE.Pedidos.API.Application.Queries;
@@ -8,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace NSE.Pedidos.API.Controllers
 {
+    [Authorize]
     public class PedidoController : MainController
     {
         private readonly IMediatorHandler _mediator;
