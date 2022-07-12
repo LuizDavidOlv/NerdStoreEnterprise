@@ -25,6 +25,7 @@ packages
 .vs/NerdStoreEnterprise/v17/.futdcache.v1
 *.v2
 *.v1
+<<<<<<< HEAD
 *.v2
 *.cache
 *.dll
@@ -37,3 +38,5 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 *.tmp
 >>>>>>> Fixed Voucher Validation Problem
+=======
+>>>>>>> update gitignore
