@@ -11,3 +11,16 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 .vs/NerdStoreEnterprise/v17/suo53C7.tmp
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 *.tmp
+*.dll
+*.pdb
+*.cache
+*/bin
+*/obj
+*/packages
+bin
+obj
+packages
+.vs/NerdStoreEnterprise/DesignTimeBuild/.dtbcache.v2
+.vs/NerdStoreEnterprise/v17/.futdcache.v1
+*.v2
+*.v1
