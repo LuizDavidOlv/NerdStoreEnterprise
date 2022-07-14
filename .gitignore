@@ -29,3 +29,16 @@ packages
 *.dll
 *.pdb
 *.cache
+src/services/NSE.Pedidos.API/bin/Debug/netcoreapp3.1/NSE.Pedidos.API.deps.json
+src/services/NSE.Pedidos.API/bin/Debug/netcoreapp3.1/NSE.Pedidos.API.dll
+src/services/NSE.Pedidos.API/bin/Debug/netcoreapp3.1/NSE.Pedidos.API.pdb
+src/services/NSE.Pedidos.API/obj/Debug/netcoreapp3.1/NSE.Pedidos.API.dll
+src/services/NSE.Pedidos.API/obj/Debug/netcoreapp3.1/NSE.Pedidos.API.pdb
+src/web/NSE.WebApp.MVC/bin/Debug/netcoreapp3.1/NSE.WebApp.MVC.deps.json
+src/web/NSE.WebApp.MVC/bin/Debug/netcoreapp3.1/NSE.WebApp.MVC.Views.dll
+src/web/NSE.WebApp.MVC/bin/Debug/netcoreapp3.1/NSE.WebApp.MVC.Views.pdb
+src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/NSE.WebApp.MVC.csproj.AssemblyReference.cache
+src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/NSE.WebApp.MVC.Views.dll
+src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/NSE.WebApp.MVC.Views.pdb
+*.pdb
+*.dll
