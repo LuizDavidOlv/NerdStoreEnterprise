@@ -18,6 +18,16 @@ namespace NSE.Pedidos.Infra.Data.Repository
             _context = context;
         }
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+        public IUnitOfWork UnitOfWork => _context;
+>>>>>>> Configuring MessageBus na API de Carrinho e Catalago
+=======
+>>>>>>> Fixed Voucher Validation Problem
+=======
+>>>>>>> 488619536331e5337e0788f8170cd25d33ff7cf3
 
         public async Task<Voucher> ObterVoucherPorCodigo(string codigo)
         {
