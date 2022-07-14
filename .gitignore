@@ -399,3 +399,9 @@ FodyWeavers.xsd
 *.cache
 *.dll
 *.pdb
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
