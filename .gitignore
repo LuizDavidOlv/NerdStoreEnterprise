@@ -7,6 +7,9 @@ src/services/NSE.Pedido.API/obj/Container/ContainerName.cache
 
 .vs/NerdStoreEnterprise/v16/suo8D92.tmp
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 488619536331e5337e0788f8170cd25d33ff7cf3
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 .vs/NerdStoreEnterprise/v17/suoD051.tmp
 .vs/NerdStoreEnterprise/v17/suo53C7.tmp
@@ -26,6 +29,7 @@ packages
 *.v2
 *.v1
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.v2
 *.cache
 *.dll
@@ -40,3 +44,5 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/project.razor.json
 >>>>>>> Fixed Voucher Validation Problem
 =======
 >>>>>>> update gitignore
+=======
+>>>>>>> 488619536331e5337e0788f8170cd25d33ff7cf3
