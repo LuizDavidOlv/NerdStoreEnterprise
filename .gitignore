@@ -421,3 +421,4 @@ src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/NSE.WebApp.MVC.csproj.FileListAbs
 src/web/NSE.WebApp.MVC/obj/Debug/netcoreapp3.1/NSE.WebApp.MVC.Views.dll
 NSE.MessageBus/obj/Debug/netcoreapp3.1/NSE.MessageBus.assets.cache
 src/services/NSE.Pagamento.API/obj/Debug/netcoreapp3.1/NSE.Pagamento.API.csproj.FileListAbsolute.txt
+*.v2
