@@ -55,9 +55,9 @@ namespace NSE.Identidade.API.Services
             var identityClaims = await ObterClaimsUsuario(claims, user);
             var encodedToken = CodificarToken(identityClaims);
 
-            var refreshToken = await GerarRefreshToken(email);
+            // var refreshToken = await GerarRefreshToken(email);
 
-            return ObterRespostaToken(encodedToken, user, claims, refreshToken);
+            return ObterRespostaToken(encodedToken, user, claims);
         }
 
         private async Task<ClaimsIdentity> ObterClaimsUsuario(ICollection<Claim> claims, IdentityUser user)
@@ -99,12 +99,12 @@ namespace NSE.Identidade.API.Services
         }
 
         private UsuarioRespostaLogin ObterRespostaToken(string encodedToken, IdentityUser user,
-            IEnumerable<Claim> claims, RefreshToken refreshToken)
+            IEnumerable<Claim> claims)
         {
             return new UsuarioRespostaLogin
             {
                 AccessToken = encodedToken,
-                RefreshToken = refreshToken.Token,
+                //RefreshToken = refreshToken.Token,
                 ExpiresIn = TimeSpan.FromHours(1).TotalSeconds,
                 UsuarioToken = new UsuarioToken
                 {
@@ -119,30 +119,30 @@ namespace NSE.Identidade.API.Services
             => (long)Math.Round((date.ToUniversalTime() - new DateTimeOffset(1970, 1, 1, 0, 0, 0, TimeSpan.Zero))
                 .TotalSeconds);
 
-        private async Task<RefreshToken> GerarRefreshToken(string email)
-        {
-            var refreshToken = new RefreshToken
-            {
-                Username = email,
-                ExpirationDate = DateTime.UtcNow.AddHours(_appTokenSettingsSettings.RefreshTokenExpiration)
-            };
+        //private async Task<RefreshToken> GerarRefreshToken(string email)
+        //{
+        //    var refreshToken = new RefreshToken
+        //    {
+        //        Username = email,
+        //        ExpirationDate = DateTime.UtcNow.AddHours(_appTokenSettingsSettings.RefreshTokenExpiration)
+        //    };
 
-            _context.RefreshToken.RemoveRange(_context.RefreshToken.Where(u => u.Username == email));
-            await _context.RefreshToken.AddAsync(refreshToken);
+        //    _context.RefreshToken.RemoveRange(_context.RefreshToken.Where(u => u.Username == email));
+        //    await _context.RefreshToken.AddAsync(refreshToken);
 
-            await _context.SaveChangesAsync();
+        //    await _context.SaveChangesAsync();
 
-            return refreshToken;
-        }
+        //    return refreshToken;
+        //}
 
-        public async Task<RefreshToken> ObterRefreshToken(Guid refreshToken)
-        {
-            var token = await _context.RefreshToken.AsNoTracking()
-                .FirstOrDefaultAsync(u => u.Token == refreshToken);
+        //public async Task<RefreshToken> ObterRefreshToken(Guid refreshToken)
+        //{
+        //    var token = await _context.RefreshToken.AsNoTracking()
+        //        .FirstOrDefaultAsync(u => u.Token == refreshToken);
 
-            return token != null && token.ExpirationDate.ToLocalTime() > DateTime.Now
-                ? token
-                : null;
-        }
+        //    return token != null && token.ExpirationDate.ToLocalTime() > DateTime.Now
+        //        ? token
+        //        : null;
+        //}
     }
 }
