@@ -424,3 +424,5 @@ src/services/NSE.Pagamento.API/obj/Debug/netcoreapp3.1/NSE.Pagamento.API.csproj.
 *.v2
 *.v2
 *.v1
+/.vs/NerdStoreEnterprise/config/applicationhost.config
+/.vs/NerdStoreEnterprise/DesignTimeBuild/.dtbcache.v2
