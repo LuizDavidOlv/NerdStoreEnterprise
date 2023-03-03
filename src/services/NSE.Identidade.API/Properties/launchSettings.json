@@ -1,10 +1,11 @@
+//Identidade
 {
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:31453",
-      "sslPort": 44346
+      "applicationUrl": "http://localhost:31953",
+      "sslPort": 44396
     }
   },
   "$schema": "http://json.schemastore.org/launchsettings.json",

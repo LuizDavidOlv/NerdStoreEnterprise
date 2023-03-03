@@ -1,11 +1,10 @@
-﻿using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
-using NSE.WebApi.Core.Identidade;
+using NetDevPack.Security.JwtSigningCredentials;
 
 namespace NSE.Identidade.API.Configuration
 {
@@ -13,6 +12,12 @@ namespace NSE.Identidade.API.Configuration
     {
         public static IServiceCollection AddIdentityConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
+            var appSettingsSection = configuration.GetSection("AppTokkenSettings");
+            services.Configure<AppTokkenSettings>(appSettingsSection);
+
+            services.AddJwksManager(options => options.Algorithm = Algorithm.ES256)
+                .PersistKeysToDatabaseStore<ApplicationDbContext>();
+
             services.AddDbContext<ApplicationDbContext>(options =>
                options.UseSqlServer(configuration.GetConnectionString("DefaultConnection")));
 
@@ -22,7 +27,6 @@ namespace NSE.Identidade.API.Configuration
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
 
-            services.AddJwtConfiguration(configuration);
 
             return services;
         }
