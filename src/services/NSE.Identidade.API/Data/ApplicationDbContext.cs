@@ -10,6 +10,6 @@ namespace NSE.Identidade.API.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
         public DbSet<SecurityKeyWithPrivate> SecurityKeys { get; set; }
-        //public DbSet<RefreshToken> RefreshToken { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
     }
 }

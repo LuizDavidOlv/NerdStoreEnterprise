@@ -231,7 +231,7 @@ namespace NSE.Identidade.API.Migrations
                     b.Property<Guid>("Token")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<string>("UserName")
+                    b.Property<string>("Username")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
