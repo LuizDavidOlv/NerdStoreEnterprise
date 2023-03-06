@@ -1,7 +1,9 @@
 ﻿using Grpc.Core;
 using Microsoft.AspNetCore.Http;
 using Microsoft.OpenApi.Exceptions;
+using NSE.WebApp.MVC.Service;
 using Polly.CircuitBreaker;
+using Refit;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,27 +15,38 @@ namespace NSE.WebApp.MVC.Extensions
     public class ExceptionMiddleware
     {
         private readonly RequestDelegate _next;
+        private static IAutenticacaoService _autenticacaoService;
 
         public ExceptionMiddleware(RequestDelegate next)
         {
             _next = next;
         }
 
-        public async Task InvokeAsync(HttpContext httpContext)
+        public async Task InvokeAsync(HttpContext httpContext, IAutenticacaoService autenticacaoService)
         {
+            _autenticacaoService = autenticacaoService;
+
             try
             {
                 await _next(httpContext);
             }
-            catch(CustomHttpResponseException ex)
+            catch (CustomHttpResponseException ex)
             {
-                HandlerRequestExceptionAsync(httpContext, ex);
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
             }
-            catch(BrokenCircuitException)
+            catch (ValidationApiException ex)
+            {
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
+            }
+            catch (ApiException ex)
+            {
+                HandleRequestExceptionAsync(httpContext, ex.StatusCode);
+            }
+            catch (BrokenCircuitException)
             {
                 HandleCircuitBreakerExceptionAsync(httpContext);
             }
-            catch(RpcException ex)
+            catch (RpcException ex)
             {
                 //400 Bad Request	    INTERNAL
                 //401 Unauthorized      UNAUTHENTICATED
@@ -55,15 +68,25 @@ namespace NSE.WebApp.MVC.Extensions
             }
         }
 
-        private static void HandlerRequestExceptionAsync(HttpContext context,CustomHttpResponseException httpRequestException)
+        private static void HandleRequestExceptionAsync(HttpContext context, HttpStatusCode statusCode)
         {
-            if(httpRequestException.StatusCode == System.Net.HttpStatusCode.Unauthorized)
+            if (statusCode == HttpStatusCode.Unauthorized)
             {
-                context.Response.Redirect($"/login?ResultUrl={context.Request.Path}");
+                if (_autenticacaoService.TokenExpirado())
+                {
+                    if (_autenticacaoService.RefreshTokenValido().Result)
+                    {
+                        context.Response.Redirect(context.Request.Path);
+                        return;
+                    }
+                }
+
+                _autenticacaoService.Logout();
+                context.Response.Redirect($"/login?ReturnUrl={context.Request.Path}");
                 return;
             }
 
-            context.Response.StatusCode = (int)httpRequestException.StatusCode;
+            context.Response.StatusCode = (int)statusCode;
         }
 
         private static void HandleCircuitBreakerExceptionAsync( HttpContext context)
