@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using NSE.Bff.Compras.Configuration;
 using NSE.Bff.Compras.Configuration.Configuration;
+using NSE.BFF.Compras.Configuration;
 using NSE.WebApi.Core.Identidade;
 using System;
 using System.Collections.Generic;
@@ -45,8 +46,10 @@ namespace NSE.BFF.Compras
             services.AddSwaggerConfiguration();
 
             services.RegisterServices();
-
+            
             services.AddMessageBusConfiguration(Configuration);
+
+            services.ConfigureGrpcServices(Configuration);
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
