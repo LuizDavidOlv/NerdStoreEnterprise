@@ -94,7 +94,7 @@ namespace NSE.Pedidos.API.Application.Commands
                 return false;
             }
 
-            var voucherValidation = new VoucherValidation().Validate(voucher);  //Por alguma razão não consigo validar o voucher
+            var voucherValidation = new VoucherValidation().Validate(voucher);  
 
 
             if (!voucherValidation.IsValid)
