@@ -63,7 +63,7 @@ namespace NSE.Pagamento.NerdsPag
             var success = new Random().Next(2) == 0;
             Transaction transaction;
 
-            if (success)
+            if (true)
             {
                 transaction = new Transaction
                 {
