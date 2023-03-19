@@ -1,9 +1,5 @@
 version: "3"
-
 services:
-
-
-
     sql-server:
         image: desenvolvedorio/nerdstore-sql-server:latest
         container_name: nerdstore-sql-server
@@ -16,3 +12,16 @@ services:
             TZ: "UTC+3" 
         ports:
             - "1433:1433"    
+
+    rabbit-nerdstore:
+        image: rabbitmq:3-management
+        container_name: rabbit
+        hostname: rabbit
+        ports:
+            - "15672:15672"
+            - "5672:5672"
+
+
+
+
+

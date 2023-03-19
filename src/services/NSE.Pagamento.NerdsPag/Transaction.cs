@@ -32,7 +32,7 @@ namespace NSE.Pagamento.NerdsPag
         public string SoftDescriptor { get; set; }
         public string RefuseReason { get; set; }
         public string Tid { get; set; }
-        public string Nsu { get; set; }
+        public string Nse { get; set; }
         public decimal Amount { get; set; }
         public int? Installments { get; set; }
         public decimal Cost { get; set; }
@@ -74,7 +74,7 @@ namespace NSE.Pagamento.NerdsPag
                     Amount = Amount,
                     Status = TransactionStatus.Authorized,
                     Tid = GetGenericCode(),
-                    Nsu = GetGenericCode()
+                    Nse = GetGenericCode()
                 };
 
                 return Task.FromResult(transaction);
@@ -89,7 +89,7 @@ namespace NSE.Pagamento.NerdsPag
                 Amount = 0,
                 Status = TransactionStatus.Refused,
                 Tid = "",
-                Nsu = ""
+                Nse = ""
             };
 
             return Task.FromResult(transaction);
@@ -106,7 +106,7 @@ namespace NSE.Pagamento.NerdsPag
                 Amount = Amount,
                 Status = TransactionStatus.Paid,
                 Tid = Tid,
-                Nsu = Nsu
+                Nse = Nse
             };
 
             return Task.FromResult(transaction);
@@ -123,7 +123,7 @@ namespace NSE.Pagamento.NerdsPag
                 Amount = Amount,
                 Status = TransactionStatus.Cancelled,
                 Tid = Tid,
-                Nsu = Nsu
+                Nse = Nse
             };
 
             return Task.FromResult(transaction);
