@@ -11,15 +11,7 @@ services:
             ACCEPT_EULA: "Y" 
             TZ: "UTC+3" 
         ports:
-            - "1433:1433"    
-
-    rabbit-nerdstore:
-        image: rabbitmq:3-management
-        container_name: rabbit
-        hostname: rabbit
-        ports:
-            - "15672:15672"
-            - "5672:5672"
+            - "1433:1433"
 
 
 

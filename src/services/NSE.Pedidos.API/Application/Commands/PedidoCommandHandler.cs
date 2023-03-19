@@ -42,15 +42,6 @@ namespace NSE.Pedidos.API.Application.Commands
                 return ValidationResult;
             }
 
-            if (!await AplicarVoucher(message, pedido)) return ValidationResult;
-
-            // Validar pedido
-            if (!ValidarPedido(pedido)) return ValidationResult;
-
-            // Processar pagamento
-            if (!await ProcessarPagamento(pedido, message)) return ValidationResult;
-
-
             pedido.AutorizarPedido();
             pedido.AdicionarEventos(new PedidoRealizadoEvent(pedido.Id, pedido.ClienteId));
             _pedidoRepository.Adicionar(pedido);
