@@ -1,16 +1,20 @@
 #See https://aka.ms/containerfastmode to understand how Visual Studio uses this Dockerfile to build your images for faster debugging.
 
-FROM mcr.microsoft.com/dotnet/aspnet:3.1 AS base
+FROM mcr.microsoft.com/dotnet/aspnet:3.1-buster-slim AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/sdk:3.1 AS build
+FROM mcr.microsoft.com/dotnet/sdk:3.1-buster AS build
 WORKDIR /src
-COPY ["src/services/NSE.Pagamento.API/NSE.Pagamento.API.csproj", "src/services/NSE.Pagamento.API/"]
-RUN dotnet restore "src/services/NSE.Pagamento.API/NSE.Pagamento.API.csproj"
+COPY ["./services/NSE.Pagamento.API/NSE.Pagamento.API.csproj", "services/NSE.Pagamento.API/"]
+COPY ["./building block/NSE.Core/NSE.Core.csproj", "building block/NSE.Core/"]
+COPY ["./building blocks/NSE.WebAPI.Core/NSE.WebAPI.Core.csproj", "building blocks/NSE.WebAPI.Core/"]
+COPY ["./building blocks/NSE.MessageBus/NSE.MessageBus.csproj", "building blocks/NSE.MessageBus/"]
+
+RUN dotnet restore "services/NSE.Pagamento.API/NSE.Pagamento.API.csproj"
 COPY . .
-WORKDIR "/src/src/services/NSE.Pagamento.API"
+WORKDIR "services/NSE.Pagamento.API"
 RUN dotnet build "NSE.Pagamento.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
