@@ -13,7 +13,7 @@ using NSE.Identidade.API.Data;
 using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Models;
 using NSE.WebApi.Core.Identidade;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using static NSE.Identidade.API.Models.UserViewModels;
 
 namespace NSE.Identidade.API.Services

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using NSE.Carrinho.API.Data;
 using NSE.Carrinho.API.Model;
 using NSE.WebApi.Core.Controllers;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 
 namespace NSE.Carrinho.API.Controllers
 {

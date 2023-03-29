@@ -8,7 +8,7 @@ using NSE.Cliente.API.Data;
 using NSE.Cliente.API.Data.Repository;
 using NSE.Cliente.API.Models;
 using NSE.Core.Mediator;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 
 namespace NSE.Cliente.API.Configuration
 {

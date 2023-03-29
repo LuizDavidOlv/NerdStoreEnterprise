@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using NSE.Carrinho.API.Data;
 using NSE.Carrinho.API.Model;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using System.Threading.Tasks;
 
 namespace NSE.Carrinho.API.Services.gRPC

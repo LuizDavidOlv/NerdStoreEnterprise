@@ -4,7 +4,7 @@ using NSE.Core.Mediator;
 using NSE.Pedidos.API.Application.Commands;
 using NSE.Pedidos.API.Application.Queries;
 using NSE.WebApi.Core.Controllers;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using System.Threading.Tasks;
 
 namespace NSE.Pedidos.API.Controllers
