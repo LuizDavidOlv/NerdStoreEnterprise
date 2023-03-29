@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using NSE.WebApp.MVC.Extensions;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
+using Microsoft.AspNetCore.HttpOverrides;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -14,10 +15,18 @@ namespace NSE.WebApp.MVC.Configuration
         public static void AddWebAppConfiguration(this IServiceCollection services,IConfiguration configuration)
         {
             services.AddControllersWithViews();
+            
+            services.Configure<ForwardedHeadersOptions>(options =>
+            {
+                options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
+            });
+            
             services.Configure<AppSettings>(configuration);
         }
         public static void UseWebAppConfiguration(this IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseForwardedHeaders();
+            
             //if (env.IsDevelopment())
             //{
             //    app.UseDeveloperExceptionPage();
