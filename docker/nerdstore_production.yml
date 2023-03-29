@@ -27,8 +27,6 @@ services:
         build:
             context: ../src
             dockerfile: ./web/NSE.WebApp.MVC/Dockerfile
-        ports:
-            - "5001:5001"
         environment:    
             - ASPNETCORE_ENVIRONMENT=Production
             - ASPNETCORE_URLS=http://*:5001
@@ -136,7 +134,7 @@ services:
 
     nerdstore-server:
         image: desenvolvedorio/nerdstore-server:latest
-        container_name: nerdstore-store
+        container_name: nerdstore-server  
         build:
             context: ./
             dockerfile: ./nginx/Dockerfile
