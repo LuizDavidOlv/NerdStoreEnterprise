@@ -1,4 +1,4 @@
-﻿using NSE.WebAPI.Core.Usuario;
+﻿using NSE.WebApi.Core.Usuario;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;

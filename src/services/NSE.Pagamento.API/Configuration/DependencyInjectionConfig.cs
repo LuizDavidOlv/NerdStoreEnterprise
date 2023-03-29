@@ -5,7 +5,7 @@ using NSE.Pagamento.API.Data.Respository;
 using NSE.Pagamento.API.Facade;
 using NSE.Pagamento.API.Models;
 using NSE.Pagamento.API.Service;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 
 namespace NSE.Pagamento.API.Configuration
 {

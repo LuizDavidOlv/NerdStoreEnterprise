@@ -13,7 +13,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 
 namespace NSE.WebApp.MVC.Service
 {

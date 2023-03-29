@@ -5,7 +5,7 @@ using NSE.Cliente.API.Models;
 using NSE.Cliente.API.Application.Commands;
 using NSE.Core.Mediator;
 using NSE.WebApi.Core.Controllers;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 
 
 namespace NSE.Cliente.API.Controllers

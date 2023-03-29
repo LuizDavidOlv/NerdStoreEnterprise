@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using NSE.Bff.Compras.Extensions;
 using NSE.Bff.Compras.Services;
 using NSE.WebApi.Core.Extensions;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using Polly;
 
 namespace NSE.Bff.Compras.Configuration.Configuration
