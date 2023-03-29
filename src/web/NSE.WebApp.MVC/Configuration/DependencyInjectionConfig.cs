@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using Polly;
 using Polly.Extensions.Http;
 using Microsoft.AspNetCore.Mvc.DataAnnotations;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using Polly.Retry;
 using System.Net.Http;
 using Microsoft.Extensions.Configuration;

@@ -5,7 +5,7 @@ using Microsoft.Extensions.Hosting;
 using NetDevPack.Security.JwtSigningCredentials.AspNetCore;
 using NSE.Identidade.API.Services;
 using NSE.WebApi.Core.Identidade;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using System;
 using System.Collections.Generic;
 using System.Linq;

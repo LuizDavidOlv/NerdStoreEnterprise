@@ -10,7 +10,7 @@ using NSE.Identidade.API.Services;
 using NSE.MessageBus;
 using NSE.WebApi.Core.Controllers;
 using NSE.WebApi.Core.Identidade;
-using NSE.WebAPI.Core.Usuario;
+using NSE.WebApi.Core.Usuario;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
