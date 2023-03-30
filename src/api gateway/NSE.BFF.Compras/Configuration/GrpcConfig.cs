@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using NSE.BFF.Compras.Services.gRPC;
 using NSE.Carrinho.API.Services.gRPC;
+using NSE.WebApi.Core.Extensions;
 using System;
 
 namespace NSE.BFF.Compras.Configuration
@@ -15,7 +16,8 @@ namespace NSE.BFF.Compras.Configuration
             services.AddGrpcClient<CarrinhoCompras.CarrinhoComprasClient>(options =>
             {
                 options.Address = new Uri(configuration["CarrinhoUrl"]);
-            }).AddInterceptor< GrpcServiceInterceptor>();
+            }).AddInterceptor< GrpcServiceInterceptor>()
+            .AllowSelfSignedCertificate();
         }
     }
 }

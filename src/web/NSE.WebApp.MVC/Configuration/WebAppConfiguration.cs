@@ -7,6 +7,7 @@ using NSE.WebApp.MVC.Extensions;
 using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.DataProtection;
 
 namespace NSE.WebApp.MVC.Configuration
 {
@@ -15,8 +16,12 @@ namespace NSE.WebApp.MVC.Configuration
         public static void AddWebAppConfiguration(this IServiceCollection services,IConfiguration configuration)
         {
             services.AddControllersWithViews();
-            
-            services.Configure<ForwardedHeadersOptions>(options =>
+
+			services.AddDataProtection()
+				.PersistKeysToFileSystem(new System.IO.DirectoryInfo(@"/var/data_protection_keys/"))
+				.SetApplicationName("NerdStoreEnterprise");
+
+			services.Configure<ForwardedHeadersOptions>(options =>
             {
                 options.ForwardedHeaders = ForwardedHeaders.XForwardedFor 
                 | ForwardedHeaders.XForwardedProto;
