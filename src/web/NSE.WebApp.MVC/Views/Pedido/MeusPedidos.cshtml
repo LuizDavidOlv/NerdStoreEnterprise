@@ -9,7 +9,7 @@
     <div class="container">
 
         @{
-            foreach (var pedido in Model.OrderBy(p=>p.Data))
+            foreach (var pedido in Model.OrderBy(p => p.Data))
             {
                 <div class="col-md-12" style="padding-bottom: 35px">
                     <article class="card">
@@ -46,7 +46,7 @@
                                         <li class="col-md-4">
                                             <figure class="itemside  mb-3">
                                                 <div class="aside">
-                                                    <img src="~/images/produtos/@item.Imagem" alt="@item.Nome" class="border img-xs">
+                                                    <img src="~/images/produtos/@item.Imagem" alt="@item.Nome" class="border img-xs" style="width: 120px; height: 120px" >
                                                 </div>
                                                 <figcaption class="info">
                                                     <p>
@@ -55,7 +55,7 @@
                                                     <span>@this.UnidadesPorProdutoValorTotal(item.Quantidade, item.Valor) </span>
                                                 </figcaption>
                                             </figure>
-                                        </li> 
+                                        </li>
                                     }
                                 }
                             </ul>
