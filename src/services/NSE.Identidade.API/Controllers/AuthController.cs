@@ -1,22 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.IdentityModel.Tokens;
-using NetDevPack.Security.JwtSigningCredentials.Interfaces;
+using NSE.Core.Http;
 using NSE.Core.Messages.Integration;
-using NSE.Identidade.API.Data;
-using NSE.Identidade.API.Extensions;
 using NSE.Identidade.API.Services;
 using NSE.MessageBus;
 using NSE.WebApi.Core.Controllers;
-using NSE.WebApi.Core.Identidade;
-using NSE.WebApi.Core.Usuario;
 using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
-using System.Text;
 using System.Threading.Tasks;
 using static NSE.Identidade.API.Models.UserViewModels;
 
@@ -27,14 +16,19 @@ namespace NSE.Identidade.API.Controllers
     public class AuthController : MainController
     {
         private readonly AuthenticationService _authenticationService;
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
+        private readonly IRestClient _restClient;
+
 
         public AuthController(
             AuthenticationService authenticationService,
-            IMessageBus bus)
+            IKafkaBus bus,
+            IRestClient restClient)
         {
             _authenticationService = authenticationService;
             _bus = bus;
+            _restClient = restClient;
         }
 
         [HttpPost("nova-conta")]
@@ -53,7 +47,8 @@ namespace NSE.Identidade.API.Controllers
 
             if (result.Succeeded)
             {
-                var clienteResult = await RegistrarCliente(usuarioRegistro);
+                var jwt = await _authenticationService.GerarJwt(usuarioRegistro.Email);
+                var clienteResult = await RegistrarCliente(usuarioRegistro,jwt);
 
                 if (!clienteResult.ValidationResult.IsValid)
                 {
@@ -61,7 +56,7 @@ namespace NSE.Identidade.API.Controllers
                     return CustomResponse(clienteResult.ValidationResult);
                 }
 
-                return CustomResponse(await _authenticationService.GerarJwt(usuarioRegistro.Email));
+                return CustomResponse(jwt);
             }
 
             foreach (var error in result.Errors)
@@ -97,7 +92,7 @@ namespace NSE.Identidade.API.Controllers
      
 
   
-        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro)
+        private async Task< ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro, UsuarioRespostaLogin jwt)
         {
             var usuario = await _authenticationService.UserManager.FindByEmailAsync(usuarioRegistro.Email);
 
@@ -106,7 +101,11 @@ namespace NSE.Identidade.API.Controllers
 
             try
             {
-                return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
+                var response = await _restClient
+                    .PostAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado, jwt.AccessToken);
+
+                return response;
+               // return await _bus.RequestAsync<UsuarioRegistradoIntegrationEvent, ResponseMessage>(usuarioRegistrado);
             }
             catch
             {

@@ -20,9 +20,10 @@ namespace NSE.Pedidos.API.Application.Commands
     {
         private readonly IPedidoRepository _pedidoRepository;
         private readonly IVoucherRepository _voucherRepository;
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
 
-        public PedidoCommandHandler(IPedidoRepository pedidoRepository, IVoucherRepository voucherRepository, IMessageBus bus)
+        public PedidoCommandHandler(IPedidoRepository pedidoRepository, IVoucherRepository voucherRepository, IKafkaBus bus)
         {
             _pedidoRepository = pedidoRepository;
             _voucherRepository = voucherRepository;

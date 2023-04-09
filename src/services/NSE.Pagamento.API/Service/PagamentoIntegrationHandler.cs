@@ -12,10 +12,11 @@ namespace NSE.Pagamento.API.Service
 {
     public class PagamentoIntegrationHandler : BackgroundService
     {
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
         private readonly IServiceProvider _serviceProvider;
 
-        public PagamentoIntegrationHandler(IMessageBus bus, IServiceProvider serviceProvider)
+        public PagamentoIntegrationHandler(IKafkaBus bus, IServiceProvider serviceProvider)
         {
             _bus = bus;
             _serviceProvider = serviceProvider;
@@ -26,16 +27,16 @@ namespace NSE.Pagamento.API.Service
             _bus.RespondAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(async request => await AutorizarPagamento(request));
         }
 
-        private void SetSubscribers()
+        private void SetSubscribers(CancellationToken stoppingToken)
         {
-            _bus.SubscribeAsync<PedidoCanceladoIntegrationEvent>("PedidoCancelado", async request => await CancelarPagamento(request));
-            _bus.SubscribeAsync<PedidoBaixadoEstoqueIntegrationEvent>("PedidoBaixadoEstoque", async request => await CapturarPagamento(request));
+            _bus.ConsumerAsync<PedidoCanceladoIntegrationEvent>("PedidoCancelado", async request => await CancelarPagamento(request), stoppingToken);
+            _bus.ConsumerAsync<PedidoBaixadoEstoqueIntegrationEvent>("PedidoBaixadoEstoque", async request => await CapturarPagamento(request), stoppingToken);
         }
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
             SetResponder();
-            SetSubscribers();
+            SetSubscribers(stoppingToken);
             return Task.CompletedTask;
         }
 
@@ -83,7 +84,7 @@ namespace NSE.Pagamento.API.Service
                     throw new DomainException($"Falha ao capturar pagamento do pedido {message.PedidoId}");
                 }
 
-                await _bus.PublishAsync(new PedidoPagoIntegrationEvent(message.ClienteId, message.PedidoId));
+                await _bus.ProducerAsync("PedidoPago",new PedidoPagoIntegrationEvent(message.ClienteId, message.PedidoId));
             }
         }
     }

@@ -42,10 +42,10 @@ namespace NSE.Pedidos.API.Services
                     return;
                 }
 
-                var bus = scope.ServiceProvider.GetRequiredService<IMessageBus>();
+                var bus = scope.ServiceProvider.GetRequiredService<IKafkaBus>();
                 var pedidoAutorizado = new PedidoAutorizadoIntegrationEvent(pedido.ClienteId, pedido.Id, pedido.PedidoItems.ToDictionary(p => p.ProdutoId, p => p.Quantidade));
 
-                await bus.PublishAsync(pedidoAutorizado);
+                await bus.ProducerAsync("PedidoAutorizado", pedidoAutorizado);
 
                 _logger.LogInformation($"Pedido ID: {pedido.Id} foi encaminhado para baixa no estoque");
             }

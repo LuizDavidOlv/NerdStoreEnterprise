@@ -11,7 +11,7 @@ namespace NSE.MessageBus
         {
             if (string.IsNullOrEmpty(connection)) throw new ArgumentNullException();
 
-            services.AddSingleton<IMessageBus>(new MessageBus(connection));
+            //services.AddSingleton<IMessageBus>(new MessageBus(connection));
             services.AddSingleton<IKafkaBus>(new KafkaBus(connection));
 
             return services;

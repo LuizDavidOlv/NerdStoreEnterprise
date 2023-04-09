@@ -10,8 +10,8 @@ namespace NSE.Cliente.API.Configuration
     {
         public static void AddMessageBusConfiguration(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddMessageBus(configuration.GetMessageQueueConnection("MessageBus"))
-                .AddHostedService<RegistroClienteIntegrationHandler>();
+            //services.AddMessageBus(configuration.GetMessageQueueConnection("KafkaBus"))
+            //    .AddHostedService<RegistroClienteIntegrationHandler>();
         }
     }
 }

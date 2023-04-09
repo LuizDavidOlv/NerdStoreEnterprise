@@ -12,10 +12,11 @@ namespace NSE.Pedidos.API.Services
 {
     public class PedidoIntegrationHandler : BackgroundService
     {
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
         private readonly IServiceProvider _serviceProvider;
 
-        public PedidoIntegrationHandler(IMessageBus bus, IServiceProvider serviceProvider)
+        public PedidoIntegrationHandler(IKafkaBus bus, IServiceProvider serviceProvider)
         {
             _bus = bus;
             _serviceProvider = serviceProvider;
@@ -23,14 +24,14 @@ namespace NSE.Pedidos.API.Services
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            SetSubscriber();
+            SetSubscriber(stoppingToken);
             return Task.CompletedTask;
         }
 
-        private void SetSubscriber()
+        private void SetSubscriber(CancellationToken stoppingToken)
         {
-            _bus.SubscribeAsync<PedidoCanceladoIntegrationEvent>("PedidoCancelado", async request => await CancelarPedido(request));
-            _bus.SubscribeAsync<PedidoPagoIntegrationEvent>("PedidoPago", async request => await FinalizarPedido(request));
+            _bus.ConsumerAsync<PedidoCanceladoIntegrationEvent>("PedidoCancelado", async request => await CancelarPedido(request), stoppingToken);
+            _bus.ConsumerAsync<PedidoPagoIntegrationEvent>("PedidoPago", async request => await FinalizarPedido(request), stoppingToken);
         }
 
         private async Task CancelarPedido(PedidoCanceladoIntegrationEvent message)

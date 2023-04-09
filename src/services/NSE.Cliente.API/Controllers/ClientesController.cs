@@ -6,7 +6,7 @@ using NSE.Cliente.API.Application.Commands;
 using NSE.Core.Mediator;
 using NSE.WebApi.Core.Controllers;
 using NSE.WebApi.Core.Usuario;
-
+using Polly;
 
 namespace NSE.Cliente.API.Controllers
 {
@@ -36,6 +36,13 @@ namespace NSE.Cliente.API.Controllers
         {
             endereco.ClienteId = _user.ObterUserId();
             return CustomResponse(await _mediatorHandler.EnviarComando(endereco));
+        }
+
+        [HttpPost("cliente/criar")]
+        public async Task<IActionResult> CriarCliente(RegistrarClienteCommand cliente)
+        {
+            cliente.Id = _user.ObterUserId();
+            return CustomResponse(await _mediatorHandler.EnviarComando(cliente));
         }
 
 

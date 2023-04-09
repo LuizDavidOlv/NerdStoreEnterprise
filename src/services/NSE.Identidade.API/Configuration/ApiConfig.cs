@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NetDevPack.Security.JwtSigningCredentials.AspNetCore;
+using NSE.Core.Http;
+using NSE.Core.Messages.Integration;
 using NSE.Identidade.API.Services;
 using NSE.WebApi.Core.Identidade;
 using NSE.WebApi.Core.Usuario;
@@ -17,6 +19,11 @@ namespace NSE.Identidade.API.Configuration
     {
         public static IServiceCollection AddApiConfiguration(this IServiceCollection services)
         {
+            services.AddSingleton<IRestClient, RestClient>();
+            services.AddHttpClient(nameof(UsuarioRegistradoIntegrationEvent),options =>
+            {
+                options.BaseAddress = new Uri("https://localhost:5441/cliente/criar");
+            });
             services.AddControllers();
 
             services.AddScoped<AuthenticationService>();
