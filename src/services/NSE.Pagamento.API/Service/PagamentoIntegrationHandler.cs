@@ -22,10 +22,10 @@ namespace NSE.Pagamento.API.Service
             _serviceProvider = serviceProvider;
         }
 
-        private void SetResponder()
-        {
-            _bus.RespondAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(async request => await AutorizarPagamento(request));
-        }
+        //private void SetResponder()
+        //{
+        //    _bus.RespondAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(async request => await AutorizarPagamento(request));
+        //}
 
         private void SetSubscribers(CancellationToken stoppingToken)
         {
@@ -35,7 +35,7 @@ namespace NSE.Pagamento.API.Service
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            SetResponder();
+            //SetResponder();
             SetSubscribers(stoppingToken);
             return Task.CompletedTask;
         }
