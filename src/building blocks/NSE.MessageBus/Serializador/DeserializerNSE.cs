@@ -12,9 +12,8 @@ namespace NSE.MessageBus.Serializador
         {
             using var memoryStream = new MemoryStream(data.ToArray());
             using var zip = new GZipStream(memoryStream, CompressionMode.Decompress, true);
-            string stringZip = zip.ToString();
 
-            return JsonSerializer.Deserialize<T>(stringZip);
+            return JsonSerializer.Deserialize<T>(zip);
         }
     }
 }

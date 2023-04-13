@@ -1,4 +1,5 @@
 ﻿using Confluent.Kafka;
+using Confluent.Kafka.Admin;
 using NSE.Core.Messages.Integration;
 using System;
 using System.Collections.Generic;
@@ -25,6 +26,25 @@ namespace NSE.MessageBus
             };
 
             var payload = System.Text.Json.JsonSerializer.Serialize(message);
+
+            var adminClientConfig = new AdminClientConfig
+            {
+                BootstrapServers = _bootstrapserver
+            };
+
+            using (var adminClient = new AdminClientBuilder(adminClientConfig).Build())
+            {
+                try
+                {
+                    await adminClient.CreateTopicsAsync(new TopicSpecification[] {
+                new TopicSpecification { Name = topic, ReplicationFactor = 1, NumPartitions = 1 } });
+                }
+                catch (CreateTopicsException e)
+                {
+                    // Topic already exists
+                    Console.WriteLine($"An error occured creating topic {e.Results[0].Topic}: {e.Results[0].Error.Reason}");
+                }
+            }
 
             var producer = new ProducerBuilder<string, string>(config).Build();
 
