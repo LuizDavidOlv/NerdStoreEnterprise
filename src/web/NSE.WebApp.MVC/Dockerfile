@@ -7,12 +7,15 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["web/NSE.WebApp.MVC/NSE.WebApp.MVC.csproj", "web/NSE.WebApp.MVC/"]
-COPY ["building blocks/NSE.Core/NSE.Core.csproj", "building blocks/NSE.WebApi.Core/"]
-COPY ["building blocks/NSE.WebApi.Core/NSE.WebApi.Core.csproj", "building blocks/NSE.WebApi.Core/"]
+COPY ["./web/NSE.WebApp.MVC/NSE.WebApp.MVC.csproj", "web/NSE.WebApp.MVC/"]
+COPY ["./building-blocks/NSE.Core/NSE.Core.csproj", "building-blocks/NSE.WebApi.Core/"]
+COPY ["./building-blocks/NSE.WebApi.Core/NSE.WebApi.Core.csproj", "building-blocks/NSE.WebApi.Core/"]
 
 RUN dotnet restore "web/NSE.WebApp.MVC/NSE.WebApp.MVC.csproj"
-COPY . .
+COPY web/NSE.WebApp.MVC/ web/NSE.WebApp.MVC/
+COPY building-blocks/NSE.Core/ building-blocks/NSE.Core/
+COPY building-blocks/NSE.WebApi.Core/ building-blocks/NSE.WebApi.Core/
+
 WORKDIR "web/NSE.WebApp.MVC"
 RUN dotnet build "NSE.WebApp.MVC.csproj" -c Release -o /app/build
 

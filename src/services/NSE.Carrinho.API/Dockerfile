@@ -8,9 +8,9 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["services/NSE.Carrinho.API/NSE.Carrinho.API.csproj", "services/NSE.Carrinho.API/"]
-COPY ["building blocks/NSE.Core/NSE.Core.csproj", "building blocks/NSE.WebApi.Core/"]
-COPY ["building blocks/NSE.WebApi.Core/NSE.WebApi.Core.csproj", "building blocks/NSE.WebApi.Core/"]
-COPY ["building blocks/NSE.MessageBus/NSE.MessageBus.csproj", "building blocks/NSE.MessageBus/"]
+COPY ["building-blocks/NSE.Core/NSE.Core.csproj", "building-blocks/NSE.WebApi.Core/"]
+COPY ["building-blocks/NSE.WebApi.Core/NSE.WebApi.Core.csproj", "building-blocks/NSE.WebApi.Core/"]
+COPY ["building-blocks/NSE.MessageBus/NSE.MessageBus.csproj", "building-blocks/NSE.MessageBus/"]
 
 RUN dotnet restore "services/NSE.Carrinho.API/NSE.Carrinho.API.csproj"
 COPY . .

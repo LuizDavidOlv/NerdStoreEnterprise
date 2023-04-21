@@ -5,7 +5,6 @@ using NSE.WebApi.Core.Controllers;
 using NSE.WebApi.Core.Identidade;
 using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace NSE.Catalogo.API.Controllers

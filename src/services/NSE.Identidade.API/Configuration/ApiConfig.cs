@@ -9,9 +9,6 @@ using NSE.Identidade.API.Services;
 using NSE.WebApi.Core.Identidade;
 using NSE.WebApi.Core.Usuario;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NSE.Identidade.API.Configuration
 {
