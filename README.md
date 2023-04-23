@@ -5,7 +5,7 @@
 
 # DevStore - A microservices e-commerce reference application built with ASP.NET 6
 
-This is application was created for studying purposes and was based in diverse courses from Dev IO website.
+This is application was created for studying purposes and was based on diverse courses from Dev IO website.
 A real-world reference application powered by [desenvolvedor.io](https://desenvolvedor.io/) <img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> implementing the most common and used technologies to share with the technical community the best way to develop full and complex applications with .NET
 
 ---
