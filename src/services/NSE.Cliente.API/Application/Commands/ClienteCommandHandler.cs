@@ -4,6 +4,7 @@ using MediatR;
 using NSE.Cliente.API.Application.Events;
 using NSE.Cliente.API.Models;
 using NSE.Core.Messages;
+using System;
 using System.Threading;
 using System.Threading.Tasks;
 

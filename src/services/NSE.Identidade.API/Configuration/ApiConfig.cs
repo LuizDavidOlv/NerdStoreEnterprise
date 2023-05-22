@@ -19,7 +19,7 @@ namespace NSE.Identidade.API.Configuration
             services.AddSingleton<IRestClient, RestClient>();
             services.AddHttpClient(nameof(UsuarioRegistradoIntegrationEvent),options =>
             {
-                options.BaseAddress = new Uri("https://localhost:5441/cliente/criar");
+                options.BaseAddress = new Uri("https://localhost:5401/cliente/criar");
             });
             services.AddControllers();
 

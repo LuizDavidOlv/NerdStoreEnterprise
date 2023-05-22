@@ -96,7 +96,6 @@ services:
         volumes: 
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - sql-server
 
     api-carrinho:
@@ -114,7 +113,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - api-identidade
             - sql-server  
 
@@ -133,7 +131,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - sql-server
 
     api-cliente:
@@ -151,7 +148,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - api-identidade
             - sql-server  
 
@@ -170,7 +166,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - api-identidade
             - api-carrinho
             - api-pagamento
@@ -191,7 +186,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - api-identidade
             - api-pedido
             - sql-server
@@ -211,7 +205,6 @@ services:
         volumes:
             - ./certs:/https:ro
         depends_on:
-            - broker-1
             - sql-server
             - api-identidade
 

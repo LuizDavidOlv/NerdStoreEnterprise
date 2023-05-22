@@ -12,6 +12,10 @@ namespace NSE.Core.Messages.Integration
         public ResponseMessage(ValidationResult validationResult)
         {
             ValidationResult = validationResult;
+            if (validationResult == null)
+            {
+                ValidationResult = new ValidationResult();
+            }
         }
     }
 }

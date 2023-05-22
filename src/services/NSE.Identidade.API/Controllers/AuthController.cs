@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using NSE.Core.Http;
 using NSE.Core.Messages.Integration;
 using NSE.Identidade.API.Services;
@@ -48,9 +49,9 @@ namespace NSE.Identidade.API.Controllers
             if (result.Succeeded)
             {
                 var jwt = await _authenticationService.GerarJwt(usuarioRegistro.Email);
-                var clienteResult = await RegistrarCliente(usuarioRegistro,jwt);
+                var clienteResult = await RegistrarCliente(usuarioRegistro, jwt);
 
-                if (!clienteResult.ValidationResult.IsValid)
+                if ( !clienteResult.ValidationResult.IsValid)
                 {
                     await _authenticationService.UserManager.DeleteAsync(user);
                     return CustomResponse(clienteResult.ValidationResult);
@@ -92,7 +93,7 @@ namespace NSE.Identidade.API.Controllers
      
 
   
-        private async Task< ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro, UsuarioRespostaLogin jwt)
+        private async Task<ResponseMessage> RegistrarCliente(UsuarioRegistro usuarioRegistro, UsuarioRespostaLogin jwt)
         {
             var usuario = await _authenticationService.UserManager.FindByEmailAsync(usuarioRegistro.Email);
 
