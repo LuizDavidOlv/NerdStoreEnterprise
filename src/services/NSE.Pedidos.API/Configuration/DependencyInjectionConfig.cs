@@ -23,7 +23,7 @@ namespace NSE.Pedidos.API.Configuration
             services.AddSingleton<IRestClient, RestClient>();
             services.AddHttpClient(nameof(PedidoIniciadoIntegrationEvent), options =>
             {
-                options.BaseAddress = new System.Uri("https://localhost:5461/pagamento/pedido-iniciado");
+                options.BaseAddress = new System.Uri("https://localhost:5601/pagamento/pedido-iniciado");
             });
             // API
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();

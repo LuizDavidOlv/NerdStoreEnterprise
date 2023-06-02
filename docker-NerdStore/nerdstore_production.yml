@@ -1,6 +1,6 @@
-version: "3"
+ version: "3"
 
-services:
+ services:
 
     # rabbitmq:
     #     image: rabbitmq:3-management
@@ -60,6 +60,7 @@ services:
         ports:
             - "1433:1433"
         environment:
+            TZ: "America/Maceio"
             SA_PASSWORD: "MeuDB@123"
             ACCEPT_EULA: "Y"
 
