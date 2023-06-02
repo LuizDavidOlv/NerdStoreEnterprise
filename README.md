@@ -1,147 +1,136 @@
-# NerdStoreEnterprise
+<p align="center">
+    <img alt="logo" src="https://user-images.githubusercontent.com/5068797/161198565-ac18c5ac-c0d9-4669-9568-b2009e944d77.png#gh-light-mode-only" />
+    <img alt="logo" src="https://user-images.githubusercontent.com/5068797/161364257-0c1d81f6-62ac-4192-93f8-836b4ce0fd06.png#gh-dark-mode-only" />
+</p>
+
+# DevStore - A microservices e-commerce reference application built with ASP.NET 6
+
+This is application was created for studying purposes and was based on diverse courses from Dev IO website.
+A real-world reference application powered by [desenvolvedor.io](https://desenvolvedor.io/) <img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> implementing the most common and used technologies to share with the technical community the best way to develop full and complex applications with .NET
+
+---
+
+<p align="center">
+    <img alt="DevStore" src="https://user-images.githubusercontent.com/5068797/164293734-a72fbeeb-0965-4413-a624-29e1c56c25df.png" />
+</p>
+
+## Want to learn everything to build an app like this?  :mortar_board:
+Check this online courses at [desenvolvedor.io](https://desenvolvedor.io) (only in portuguese)
 
-- Aplicação web do curso avançado de ASP.NET Core Enterprise Applications do desenvolvedor.io.
+- [ASP.NET Core Expert](https://desenvolvedor.io/formacao/asp-net-core-expert)
+- [Software Architect](https://desenvolvedor.io/formacao/arquiteto-de-software)
+
+## Technologies / Components implemented
 
-## Objetivos
-
-- Aplicação estilo e-commerce utilizando conceitos avançados do ASP.NET Core e modelagem.
-
-- Cenários de aplicações corporativas onde o conhecimento e planejamento são fundamentais 
-para a implementação de uma solução sólida e bem estruturada.
-
-- Implementação de recursos de comunicação como filas,
-chamadas remotas e também distribuição utilizando containners
-com Docker.
+- .NET 6
+    - ASP.NET MVC Core
+    - ASP.NET WebApi
+    - ASP.NET Minimal API
+    - ASP.NET Identity Core
+    - Refresh Token
+    - JWT with rotactive public / private key    
+    - GRPC
+    - Background Services
+    - Entity Framework Core 6
 
-- Pattern's e muito mais
+- Components / Services
+    - RabbitMQ
+    - Kafka
+    - EasyNetQ
+    - Refit 
+    - Polly
+    - Bogus
+    - Dapper
+    - FluentValidator
+    - MediatR
+    - Swagger UI with JWT support
+    - NetDevPack
+    - NetDevPack.Identity
+    - NetDevPack.Security.JWT
 
-## Algumas features da API (Os commits serão feitos quando cada feature for concluída)
+- Hosting
+    - IIS
+    - NGINX
+    - Docker (with compose)
 
-### API de Identidade
+## Architecture:
 
-- Fluxo de autenticação
-- Configuração do Identity
-- Registro de login
-- Documentação com Swagger
-- Configuração do JWT
-- Response Customizado
+### Complete architecture implementing the most important and used concerns as:
 
-### Aplicação Web
+- Hexagonal Architecture
+- Clean Code
+- Clean Architecture
+- DDD - Domain Driven Design (Layers and Domain Model Pattern)
+- Domain Events
+- Domain Notification
+- Domain Validations
+- CQRS (Imediate Consistency)
+- Retry Pattern
+- Circuit Breaker
+- Unit of Work
+- Repository
+- Specification Pattern
+- API Gateway / BFF
 
-- Configurar a autenticação
-- Consumindo uma API via HttpService
-- Gerar cookie através do JWT e obter dados do usuário através dele
-- Tratamento de erros do response e exibi-los para o usuário
-- Tratar erros do servidor
-- Boas práticas HttpServices
+---
 
-### Comunicação com API's
+## Architecture Overview
 
--Layout do e-commerce
-- Arquitetura, modelagem e acesso a dados da API Catalogo
-- Validação de JWT
-- Validação de acesso baseado em Claims
-- DelegatingHandlers
-- Refit para consumo de API's
-- Retry Pattern e Circuit Breaker com Polly
+### The entire application is based in an unique solution with 7 API's and one web application (MVC)
+<p align="center">
+    <img alt="read before" src="https://user-images.githubusercontent.com/5068797/161202409-edcf2f38-0714-4de5-927d-1a02be4501ec.png" />
+</p>
 
-### Modelagem da API de Clientes
+---
 
-- Definir entidades
-- Objetos de valor e validações
-- Mapeamento das tabelas
-- Command e command handler
-- MediatR e command handler
-- Persistência via command handler
-- Eventos
-- Execução do processo de cadastro e registro do cliente via WebApp
+This is a reference application, each microservice has its own database and represents a bounded context (DDD concept).
+There is a BFF / API Gateway to manage the Basket / Order / Payment requests and data structure from responses.
 
-### Comunicação entre API's com RabbitMQ
+<p align="center">
+    <img alt="read before" src="https://user-images.githubusercontent.com/5068797/161207732-e4f67ce4-624d-4067-a756-67ee1bb553de.png" />
+</p>
 
-- Request response pattern
-- Implementando o request e response
-- Customização do EventBus
-- Validar cenários e recuperação de falhas
+---
 
-### API de Carrinho
+## Getting Started
+You can run the DevStore project on any operating system. **Make sure you have installed docker in your environment.** ([Get Docker Installation](https://docs.docker.com/get-docker/))
 
-- Reconhecimento do usuário
-- Comportamento de negocio da API
-- Implementando carrinho no front-end
+Clone DevStore repository and navigate to the **/Docker** folder and then:
 
-### Processo de Pedidos
+### If you just want run the DevStore application in your Docker enviroment:
 
-- Implementando e consumindo serviços pelo BFF
-- Modelagem da entidade voucher e criação da tabela
-- Application query stack e Specification Pattern
-- Aplicando o voucher via BFF
-- Aplicando Voucher na API de Carrinho e na WebApp
-- Modelagem do pedido no dominio
-- Camadas de infraestrutura de pedido, application de pedido.
-- Utilizando Dapper na query stack
-- Manipulando o Carrinho via RabbitMQ
-- Cadastro e consulat de endereço do cliente
-- Configurações e validações no BFF de Compras
-- Tratamento de erros
+```
+docker-compose -f nerdstore_production.yml up
+```
 
-### API de Pagamentos
+### If you want to build the local images and run the DevStore application in your Docker enviroment:
 
-- Gateway de pagamento
-- Solicitando o processamento de pagamento
-- Modelagem das classes
-- Facade com o gateway de pagamento
-- Background service de pagamento
-- Fluxo de captura e cancelamento
-- Rodando tarefas agendadas de forma nativa
-- Baixando o pedido do estoque
-- Captura e cancelamento de pagamentos
+This compose will provide one database container each API service.
 
+```
+docker-compose -f nerdstore_production.yml up --build
+```
+---
 
-### E mais como:
+### If you want run locally with VS/VS Code:
 
-- Paginação no MVC
-- ViewComponent de paginação
-- Pesquisa avançada
-- JWK e JWKS na API de Identidade
-- Refresh Token
-- gRPC
-- SQL Server via Docker
-- NGINX
+You will need:
 
+- Docker
+- SQL instance (or container)
+- Kafka
 
+So you can edit the Docker compose to just run the database and queue dependencies and save your time.
 
+### If you want Visual Studio with F5 and debug experience:
 
+- You will need at least Visual Studio 2022 and .NET 6.
+- The latest SDK and tools can be downloaded from https://dot.net/core
+- Setup the solution to start multiple projects and hit F5
+ 
+![image](https://user-images.githubusercontent.com/5068797/161358024-bd5754b6-61e3-47f2-bd17-bd3c32ec4bdd.png)
 
+---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## About
+DevStore was proudly developed by [desenvolvedor.io](https://desenvolvedor.io/)❤<img alt="Brasil" src="https://user-images.githubusercontent.com/5068797/161345649-c7184fdc-2bc3-42a9-8fb6-6ffee9c8f9c2.png" width="20" height="14" /> team under the [MIT license](LICENSE).

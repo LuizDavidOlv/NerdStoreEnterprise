@@ -12,24 +12,25 @@ namespace NSE.Carrinho.API.Services
 {
     public class CarrinhoIntegrationHandler : BackgroundService
     {
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
         private readonly IServiceProvider _serviceProvider;
 
-        public CarrinhoIntegrationHandler(IServiceProvider serviceProvider, IMessageBus bus)
+        public CarrinhoIntegrationHandler(IServiceProvider serviceProvider, IKafkaBus bus)
         {
             _serviceProvider = serviceProvider;
             _bus = bus;
         }
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            SetSubscribers();
+            SetSubscribers(stoppingToken);
             return Task.CompletedTask;
         }
 
-        private void SetSubscribers()
+        private void SetSubscribers(CancellationToken stoppingToken)
         {
-            _bus.SubscribeAsync<PedidoRealizadoIntegrationEvent>("PedidoRealizado", async request =>
-                await ApagarCarrinho(request));
+            _bus.ConsumerAsync<PedidoRealizadoIntegrationEvent>("PedidoRealizado", async request =>
+                await ApagarCarrinho(request), stoppingToken);
         }
 
         private async Task ApagarCarrinho(PedidoRealizadoIntegrationEvent message)

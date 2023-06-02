@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
 		<UserSecretsId>17cc636a-2775-4238-a468-c3e6c56a9715</UserSecretsId>
 		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
 		<DockerfileContext>..\..\..</DockerfileContext>
@@ -10,18 +10,18 @@
 	<ItemGroup>
 		<PackageReference Include="dapper" Version="2.0.35" />
 		<PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.13" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.4" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="3.1.4" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4" />
-		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.3.3" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="6.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.16" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\building blocks\NSE.Core\NSE.Core.csproj" />
-		<ProjectReference Include="..\..\building blocks\NSE.MessageBus\NSE.MessageBus.csproj" />
-		<ProjectReference Include="..\..\building blocks\NSE.WebApi.Core\NSE.WebApi.Core.csproj" />
+		<ProjectReference Include="..\..\building-blocks\NSE.Core\NSE.Core.csproj" />
+		<ProjectReference Include="..\..\building-blocks\NSE.MessageBus\NSE.MessageBus.csproj" />
+		<ProjectReference Include="..\..\building-blocks\NSE.WebApi.Core\NSE.WebApi.Core.csproj" />
 	</ItemGroup>
 
 

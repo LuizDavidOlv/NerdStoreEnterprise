@@ -7,11 +7,8 @@ using NSE.WebApp.MVC.Models;
 using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
 using System.Net.Http;
 using System.Security.Claims;
-using System.Text;
-using System.Text.Json;
 using System.Threading.Tasks;
 using NSE.WebApi.Core.Usuario;
 

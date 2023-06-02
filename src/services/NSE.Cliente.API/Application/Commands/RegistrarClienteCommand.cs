@@ -1,9 +1,6 @@
 ﻿using FluentValidation;
 using NSE.Core.Messages;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace NSE.Cliente.API.Application.Commands
 {
@@ -13,6 +10,11 @@ namespace NSE.Cliente.API.Application.Commands
         public string Nome { get; set; }
         public string Email { get; set; }
         public string Cpf { get; set; }
+
+        // Empty constructor to use during deserialization
+        public RegistrarClienteCommand()
+        {
+        }
 
         public RegistrarClienteCommand(Guid id, string nome, string email, string cpf)
         {
@@ -62,6 +64,4 @@ namespace NSE.Cliente.API.Application.Commands
             }
         }
     }
-
-
 }

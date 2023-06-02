@@ -14,10 +14,11 @@ namespace NSE.Catalogo.API.Services
 {
     public class CatalogoIntegrationHandler : BackgroundService
     {
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
         private readonly IServiceProvider _serviceProvider;
 
-        public CatalogoIntegrationHandler(IMessageBus bus, IServiceProvider serviceProvider)
+        public CatalogoIntegrationHandler(IKafkaBus bus, IServiceProvider serviceProvider)
         {
             _bus = bus;
             _serviceProvider = serviceProvider;
@@ -25,13 +26,14 @@ namespace NSE.Catalogo.API.Services
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
-            SetSubscribers();
+            SetSubscribers(stoppingToken);
             return Task.CompletedTask;
         }
 
-        private void SetSubscribers()
+        private void SetSubscribers(CancellationToken stoppingToken)
         {
-            _bus.SubscribeAsync<PedidoAutorizadoIntegrationEvent>("PeidoAutorizado", async request => await BaixarEstoque(request));
+            _bus.ConsumerAsync<PedidoAutorizadoIntegrationEvent>
+                ("PeidoAutorizado", async request => await BaixarEstoque(request), stoppingToken);
         }
 
         private async Task BaixarEstoque(PedidoAutorizadoIntegrationEvent message)
@@ -61,13 +63,13 @@ namespace NSE.Catalogo.API.Services
                 }
 
                 var pedidoBaixado = new PedidoBaixadoEstoqueIntegrationEvent(message.ClienteId, message.PedidoId);
-                await _bus.PublishAsync(pedidoBaixado);
+                await _bus.ProducerAsync("PedidoBaixadoEstoque", pedidoBaixado);
             }
         }
         private async void CancelarPedidoSemEstoque(PedidoAutorizadoIntegrationEvent message)
         {
             var pedidoCancelado = new PedidoCanceladoIntegrationEvent(message.ClienteId, message.PedidoId);
-            await _bus.PublishAsync(pedidoCancelado);
+            await _bus.ProducerAsync("PedidoCancelado",pedidoCancelado);
         }
     }
 }

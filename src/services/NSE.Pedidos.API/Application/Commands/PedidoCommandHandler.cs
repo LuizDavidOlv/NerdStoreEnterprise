@@ -1,6 +1,7 @@
 ﻿
 using FluentValidation.Results;
 using MediatR;
+using NSE.Core.Http;
 using NSE.Core.Messages;
 using NSE.Core.Messages.Integration;
 using NSE.MessageBus;
@@ -20,13 +21,16 @@ namespace NSE.Pedidos.API.Application.Commands
     {
         private readonly IPedidoRepository _pedidoRepository;
         private readonly IVoucherRepository _voucherRepository;
-        private readonly IMessageBus _bus;
+        //private readonly IMessageBus _bus;
+        private readonly IKafkaBus _bus;
+        private readonly IRestClient _restClient;
 
-        public PedidoCommandHandler(IPedidoRepository pedidoRepository, IVoucherRepository voucherRepository, IMessageBus bus)
+        public PedidoCommandHandler(IPedidoRepository pedidoRepository, IVoucherRepository voucherRepository, IKafkaBus bus, IRestClient restClient)
         {
             _pedidoRepository = pedidoRepository;
             _voucherRepository = voucherRepository;
             _bus = bus;
+            _restClient = restClient;
         }
 
         public async Task<ValidationResult> Handle(AdicionarPedidoCommand message, CancellationToken cancellationToken)
@@ -137,7 +141,8 @@ namespace NSE.Pedidos.API.Application.Commands
                 Cvv = message.CvvCartao
             };
 
-            var result = await _bus.RequestAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(pedidoIniciado);
+            var result = await _restClient.PostAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(pedidoIniciado);
+            //var result = await _bus.RequestAsync<PedidoIniciadoIntegrationEvent, ResponseMessage>(pedidoIniciado);
 
             if (result.ValidationResult.IsValid)
             {
