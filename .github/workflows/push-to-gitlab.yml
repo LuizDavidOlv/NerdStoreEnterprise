@@ -22,7 +22,7 @@ jobs:
         git config --global user.email "luizdavid.93@hotmail.com"
         
         # Add GitLab remote
-        git remote add gitlab "https://oauth2:${NERDSTORETOKEN}@gitlab.com/LuizDavidOlv/NerdStoreEnterprise.git"
+        git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/LuizDavidOlv/NerdStoreEnterprise.git"
         
         # Push to GitLab
         git push gitlab main
