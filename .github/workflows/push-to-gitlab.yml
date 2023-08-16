@@ -25,5 +25,4 @@ jobs:
         git remote add gitlab "https://oauth2:${GITLAB_TOKEN}@gitlab.com/LuizDavidOlv/NerdStoreEnterprise.git"
         
         # Push to GitLab
-        git pull gitlab main
         git push gitlab main
